@@ -1,5 +1,11 @@
 # Grape-Academic-Theme
 
+<a href="https://jekyll-themes.com">
+    <img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" height="20" alt="Jekyll Themes Shield" loading="lazy">
+</a>
+
+---
+
 ![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
 
 Welcome to Grape Academic Theme!
@@ -8,7 +14,7 @@ It can still include a blog, but that is optional.
 
 [Demo](https://chrjabs.github.io/Grape-Academic-Theme)
 
-## Installation
+## Installation and Serving Local Version for Testing
 
 1. Fork and clone the Grape Academic Theme repo
 
@@ -43,6 +49,16 @@ A script for publishing on a `gh-pages` branch is included.
 Run `_scripts/publish.sh` from the main project directory and the page will be built, copied to the `gh-pages` branch and published.
 Make sure that GitHub pages is set up to publish that branch.
 If additional scripts should be executed in the HTML root, they can be placed in `_scripts/publish.d` and will be automatically executed.
+
+These are step-by-step instructions for forking and publishing the theme at your `<username>.github.io` github pages website:
+
+1. For the repository to a repository named `<username>/<username>.github.io`
+2. Go to the settings of the new repository and navigate to the "Pages" tab.
+  There, change the source for github pages to the `gh-pages` branch of the repository.
+3. Clone the repository and go through the installation steps listed above
+4. In `_config.yml`, change the `baseurl` option to an empty string (`""`) to host the webpage in the root of your `github.io` page
+5. Commit the change and (with a working jekyll install) run `_scripts/publish.sh`
+6. _Wait a couple of minutes_ and the demo content will show up at `<username>.github.io`
 
 ## Customizing
 
