@@ -1,29 +1,52 @@
-image: assets/img/smile.png
+image: assets/img/rz_portrait.png
 username: Ronghao Zhang
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
+description: An enthusiastic undergraduate student bringing strong knowledge base in Systems Biology and Computer Science. Having demonstrated success in academic abilities honed through research tasks and education experiences. Flexible in working with various personality types to complete projects smoothly, diligently, and on time.
+webpage: https://ronghao-zhang.github.io
 experience:
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
+  - start: 2022-05-06
+    end: 2022-08-26
+    experience : Full-Time Undergrad RA in Bensmaia Lab, Department of Organismal Biology and Anatomy, University of Chicago 
+  - start: 2019
+    end: 2023
+    experience : Part-Time Undergrad RA in Garvin Lab, Department of Biophysics and Physiology, SOM, CWRU
+  - start: 2019
+    end: 2023
+    experience : Dual Degree in Systems Biology (B.S.) & Computer Science (B.A.), Case Western Reserve University
 interests:
-  - Interest 1
-  - Interest 2
+  - Decoding of the neuronal electrical activities that underlie the senses of visual, auditory, and tactile perception.
+  - Innovation of engineering tools that sense and modulate electrophysiological signals of neurons. 
+  - Translational studies of the above topics that benefit patients with perceptual disorder or motor dysfunction. 
 skills: 
-  - skill: HTML5 & CSS
-    value: 85  # Percent value
+  - skill: Ability to Solve Coding Problems using YouTube & StackOverflow
+    value: 98  
+  - skill: R Programming
+    value: 85  
+  - skill: MatLab
+    value: 85  
+  - skill: LaTex
+    value: 75 
+  - skill: Java
+    value: 70 
+  - skill: MySQL
+    value: 30  
+  - skill: Unix Command Lines
+    value: 30  
+  - skill: HTML/CSS/JavaScript
+    value: 30   
+  - skill: C# & Unity
+    value: 30  
 social:
-  email:  # Full email address, e.g. "sample@google.com"
-  orcid: 
+  email:  ronghao.zhang.academic@gmail.com # Full email address, e.g. "sample@google.com"
+  orcid: 0000-0001-6418-090X
   scholar: 
   publons: 
   research_gate: 
-  linkedin:  # Full URL 
-  github: chrjabs
+  linkedin: https://www.linkedin.com/in/ronghao-zhang-a81b05234/ # Full URL 
+  github: https://github.com/ronghao-zhang
   gitlab: 
-  bitbucket: chrjabs
+  bitbucket: 
   google_plus:
-  twitter: chrjabs
+  twitter: 
   youtube:
   facebook:
   instagram:
