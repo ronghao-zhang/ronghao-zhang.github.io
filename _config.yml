@@ -8,19 +8,15 @@ blog: True
 lang: en
 
 # Search engine optimization settings
-title: Grape Academic Theme
+title: Ronghao Zhang's Personal Website
 tagline: A jekyll theme for academic portfolios
-description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
-author: Christoph Jabs (chrjabs)
-twitter:
-  username: chrjabs
-  card: A jekyll theme for academic portfolios
-logo: /assets/img/smile.png
+description: Ronghao Zhang's Academic Personal Website Powered by Jekyll Grape Academic Theme. 
+author: Ronghao Zhang
+logo: /assets/img/rz_portrait.png
 social:
-  name: Christoph Jabs
+  name: Ronghao Zhang 
   links:
-    - https://twitter.com/chrjabs
-    - https://github.com/chrjabs
+    - https://github.com/ronghao-zhang
 locale: en_GB
 
 # Page Settings

@@ -17,7 +17,7 @@ interests:
   - Innovation of engineering tools that sense and modulate electrophysiological signals of neurons. 
   - Translational studies of the above topics that benefit patients with perceptual disorder or motor dysfunction. 
 skills: 
-  - skill: Ability to Solve Coding Problems using YouTube & StackOverflow
+  - skill: Ability to Solve Coding Problems using StackOverflow
     value: 98  
   - skill: R Programming
     value: 85  
@@ -28,21 +28,21 @@ skills:
   - skill: Java
     value: 70 
   - skill: MySQL
-    value: 30  
+    value: 40  
   - skill: Unix Command Lines
     value: 30  
   - skill: HTML/CSS/JavaScript
     value: 30   
   - skill: C# & Unity
-    value: 30  
+    value: 20  
 social:
-  email:  ronghao.zhang.academic@gmail.com # Full email address, e.g. "sample@google.com"
+  email: ronghao.zhang.academic@gmail.com # Full email address, e.g. "sample@google.com"
   orcid: 0000-0001-6418-090X
   scholar: 
   publons: 
   research_gate: 
   linkedin: https://www.linkedin.com/in/ronghao-zhang-a81b05234/ # Full URL 
-  github: https://github.com/ronghao-zhang
+  github: ronghao-zhang
   gitlab: 
   bitbucket: 
   google_plus:
