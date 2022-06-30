@@ -2,41 +2,45 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     image:
-      path: "project_shadowing.png" # path: assets/project/
+      path: "volunteer_cover.png" # path: assets/project/
       alt: "Cover Page of the Shadowing and Volunteer Project"
     date: 2019-12 &ndash; 2020-11 
     title: Student Volunteering
     summary: I served as an Adult Emergency Volunteer in University Hospitals during the pandemic, transferring patients' specimens to pathology laboratories, and doing errands for patients in the Division of Cardiovascular Medicine. Additionally, I participated in an observation program in the Department of Neurological Surgery.
-    description: Served as a student volunteer at University Hospitals Cleveland Medical Center during the Pandemic.
+    description: Served as a student volunteer and observer at University Hospitals Cleveland Medical Center during the Pandemic.
     contents:
-        - title: 1. Adult Emergency Volunteer
+        - title: 1. Student Observer
           image:
-            path: portfolio.png
-            alt: "A screenshot of the portfolio page"
+            path: volunteer_1.jpg
+            alt: "Student Observer Figure"
           description: 
-            <li>Concise portfolio page</li>
-            <li>Recent publications</li>
-            <li>Projects</li>
-        - title: 2. Comfort Rounder Volunteer
+            <li>2019-12</li> 
+            <li>Shadowed in the Department of Neurological Surgery</li>
+            <li>Shadowed neurological surgeries for over 40 hours</li> 
+        - title: 2. Adult Emergency Volunteer
           image:
-            path: home.png
-            alt: "A screenshot of the blog page"
+            path: volunteer_2.jpg
+            alt: "CEM Figure"
           description: 
-            <li>Responsive Layout</li>
-            <li>Tags</li> 
-            <li>Pagination</li>
-        - title: 3. Infusion Courier Volunteer
+            <li>2020-01 ~ 2020.03</li>
+            <li>Volunteered in the Center of Emergency Medicine</li>
+            <li>Cleaned, disinfected, and prepared rooms for incoming patients</li>
+        - title: 3. Comfort Rounder Volunteer
           image:
-            path: tags.png
-            alt: "A screenshot of the tags page"
+            path: volunteer_3.jpg
+            alt: "CRV Figure"
           description: 
-            <li>Responsive Layout</li> 
-            <li>Tags</li>
-        - title: 4. Student Observer
+            <li>2020-06 ~ 2020.09</li>
+            <li>Volunteered in the Division of Cardiovascular Medicine</li>
+            <li>Developed strong and trusting rapport with patients</li>
+            <li>Checked wheelchair and stretcher functionality</li>
+            <li>Provided patient transport using various equipment</li>
+        - title: 4. Infusion Courier Volunteer
           image:
-            path: tags.png
-            alt: "A screenshot of the tags page"
+            path: volunteer_4.jpg
+            alt: "ICV Figure"
           description: 
-            <li>Responsive Layout</li> 
-            <li>Tags</li> 
+            <li>2020-09 ~ 2020.11</li> 
+            <li>Volunteered in the Seidman Cancer Center</li>
+            <li>Organized the transportation of Humoral specimens to Labs</li>
   
