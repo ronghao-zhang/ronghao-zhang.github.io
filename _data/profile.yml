@@ -3,14 +3,17 @@ username: Ronghao Zhang
 description: An enthusiastic undergraduate student bringing strong knowledge base in Systems Biology and Computer Science. Having demonstrated success in academic abilities honed through research tasks and education experiences. Flexible in working with various personality types to complete projects smoothly, diligently, and on time.
 webpage: https://ronghao-zhang.github.io
 experience:
-  - start: 2022-05-06
-    end: 2022-08-26
+  - start: 2022-05
+    end: 2022-08 (Expected)
     experience : Full-Time Undergrad RA in Bensmaia Lab, Department of Organismal Biology and Anatomy, University of Chicago 
-  - start: 2019
-    end: 2023
-    experience : Part-Time Undergrad RA in Garvin Lab, Department of Biophysics and Physiology, SOM, CWRU
-  - start: 2019
-    end: 2023
+  - start: 2021-08
+    end: 2023-05 (Expected)
+    experience: Part-Time Undergrad TA, Department of Biology & Department of Computer Science and Data Science, Case Western Reserve University
+  - start: 2019-11
+    end: 2023-05 (Expected)
+    experience : Part-Time Undergrad RA in Garvin Lab, Department of Biophysics and Physiology, SOM, Case Western Reserve University
+  - start: 2019-08
+    end: 2023-05 (Expected)
     experience : Dual Degree in Systems Biology (B.S.) & Computer Science (B.A.), Case Western Reserve University
 interests:
   - Decoding of the neuronal electrical activities that underlie the senses of visual, auditory, and tactile perception.
@@ -30,7 +33,7 @@ skills:
   - skill: Unix Command Lines
     value: 30  
   - skill: HTML/CSS/JavaScript
-    value: 30   
+    value: 25
   - skill: C# & Unity
     value: 20  
 social:

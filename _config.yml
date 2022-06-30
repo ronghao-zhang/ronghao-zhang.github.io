@@ -8,7 +8,7 @@ blog: True
 lang: en
 
 # Search engine optimization settings
-title: Ronghao Zhang's Personal Website
+title: Ronghao Zhang
 tagline: A jekyll theme for academic portfolios
 description: Ronghao Zhang's Academic Personal Website Powered by Jekyll Grape Academic Theme. 
 author: Ronghao Zhang
@@ -30,7 +30,7 @@ theme_settings:
   recentpubs_title: RECENT PUBLICATIONS
 
 # Pagination
-paginate: 5
+paginate: 10
 paginate_path: "blog/page:num"
 
 # Build Settings
