@@ -24,14 +24,14 @@ skills:
     value: 85  
   - skill: MatLab
     value: 85  
+  - skill: MySQL & Queries
+    value: 80  
   - skill: LaTex
     value: 75 
   - skill: Java
     value: 70 
-  - skill: MySQL
-    value: 40  
   - skill: Unix Command Lines
-    value: 30  
+    value: 60  
   - skill: HTML/CSS/JavaScript
     value: 25
   - skill: C# & Unity
