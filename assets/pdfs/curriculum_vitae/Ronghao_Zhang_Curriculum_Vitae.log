@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.2.21)  11 AUG 2022 12:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.2.21)  21 AUG 2022 22:08
 entering extended mode
 **./Ronghao_Zhang_Curriculum_Vitae.tex
 (Ronghao_Zhang_Curriculum_Vitae.tex
@@ -456,12 +456,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {C:/Users/luke_/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 311--313
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 310--312
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 319--321
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 318--320
 []  
  []
 
@@ -471,17 +471,17 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
 [2]
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 326--328
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 325--327
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 333--335
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 332--334
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 340--342
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 339--341
 []  
  []
 
@@ -514,7 +514,7 @@ s/type1/public/amsfonts/cm/cmbx12.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/
 cmcsc10.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Latex/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cm
 sy6.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Ronghao_Zhang_Curriculum_Vitae.pdf (3 pages, 140896 bytes).
+Output written on Ronghao_Zhang_Curriculum_Vitae.pdf (3 pages, 140790 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
