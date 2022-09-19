@@ -16,9 +16,10 @@ experience:
     end: 2023-05 (Expected)
     experience : Dual Degree in Systems Biology (B.S.) & Computer Science (B.A.), Case Western Reserve University
 interests:
-  - Neural basis of sensory perception and motor systems - how we interact with this world.
-  - Neuromodulation techniques that can be used to help patients to recover from neurological diseases.
-  - Bio-mimetic robotics or neuroprosthetics. 
+  - to understand the neural basis and computational foundation of perception and motor systems - interaction with this world
+  - to enhance the performance of Brain Machine Interfaces or neuroprosthetics - better approaches for rehabilitation and research 
+  - to learn the mechanisms that underlie signal propagation and dynamics in biological neural networks - processing of information in our brain
+  - to develop neuromodulation and stimulation techniques - coding neuronal behavior and treating neurological diseases
 skills: 
   - skill: R Programming
     value: 85  
