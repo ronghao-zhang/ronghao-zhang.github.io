@@ -9,8 +9,8 @@ lang: en
 
 # Search engine optimization settings
 title: Ronghao Zhang
-tagline: A jekyll theme for academic portfolios
-description: Ronghao Zhang's Academic Personal Website Powered by Jekyll Grape Academic Theme. 
+tagline: Undergrad at CWRU
+description: Current undergraduate student at Case Western Reserve University. Studying Systems Biology and Computer Science. Originally from China.  
 author: Ronghao Zhang
 logo: /assets/img/rz_portrait.png
 social:
@@ -47,8 +47,8 @@ scholar:
   bibliography_template: pubstemplate
   style: apa
   locale: en
-  last_name: Me
-  first_name: [Myself, M.]
+  last_name: Zhang
+  first_name: [Ronghao, R.]
   sort_by: year,month
   order: descending,ascending
 
