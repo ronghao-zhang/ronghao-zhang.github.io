@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.2.21)  24 SEP 2022 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.2.21)  11 OCT 2022 21:24
 entering extended mode
 **./Ronghao_Zhang_Curriculum_Vitae.tex
 (Ronghao_Zhang_Curriculum_Vitae.tex
@@ -449,6 +449,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 121.
 
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 193--194
+[]  
+ []
+
+
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
@@ -456,33 +461,27 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {C:/Users/luke_/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2]
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 316--318
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 250--252
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 324--326
-[]  
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 257--259
+[] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 331--333
-[]  
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 261--263
+[] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 338--340
-[]  
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 265--267
+[] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 345--347
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 269--270
 []  
  []
 
@@ -491,22 +490,22 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-[3] (Ronghao_Zhang_Curriculum_Vitae.aux)
+[2] (Ronghao_Zhang_Curriculum_Vitae.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Ronghao_Zhang_Curriculum_Vitae.out' has not 
 changed.
-(rerunfilecheck)             Checksum: CC2861B82D37537F674B467502CAF010;645.
+(rerunfilecheck)             Checksum: 1CCD637F36573CD43E4643DF86E7FFAC;585.
  ) 
 Here is how much of TeX's memory you used:
  10278 strings out of 479623
- 174082 string characters out of 2882104
- 505687 words of memory out of 3000000
- 27283 multiletter control sequences out of 15000+200000
- 410248 words of font info for 53 fonts, out of 3000000 for 9000
+ 174084 string characters out of 2882104
+ 508687 words of memory out of 3000000
+ 27284 multiletter control sequences out of 15000+200000
+ 410416 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,75p,389b,582s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,11n,75p,427b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Latex/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{D:/Latex/fonts/enc/dvi
 ps/fontawesome5/fa5free1.enc}<D:/Latex/fonts/type1/public/fontawesome5/FontAwes
 ome5Brands-Regular.pfb><D:/Latex/fonts/type1/public/fontawesome5/FontAwesome5Fr
@@ -514,10 +513,11 @@ ee-Solid.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Latex/font
 s/type1/public/amsfonts/cm/cmbx12.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/
 cmcsc10.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Latex/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cm
-sy6.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Ronghao_Zhang_Curriculum_Vitae.pdf (3 pages, 144015 bytes).
+sy6.pfb><D:/Latex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Latex/fonts/typ
+e1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Ronghao_Zhang_Curriculum_Vitae.pdf (2 pages, 151179 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
