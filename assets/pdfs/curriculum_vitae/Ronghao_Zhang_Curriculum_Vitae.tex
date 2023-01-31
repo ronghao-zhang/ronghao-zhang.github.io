@@ -1,4 +1,3 @@
-
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -62,7 +61,7 @@
 	\vspace{-2pt}\item
 	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & \textbf{\small #2} \\
-		\textit{\small#3} & \textit{\small #4} \\
+		\textit{\small#3} & {\small #4} \\
 	\end{tabular*}\vspace{-4pt}
 }
 
@@ -104,7 +103,7 @@
 	\begin{center}
 		{\Huge \scshape Ronghao Zhang} 
 		\\ \vspace{5pt}
-		Updated on 2022-10-11
+		Updated 2022-12-15
 		\\ \vspace{5pt}
 		\small \raisebox{-0.1\height} ~ 
 		\href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\          \underline{ronghao.zhang.academic@gmail.com}} ~ 
@@ -123,25 +122,19 @@
 	\resumeItem{Dual degree in Systems Biology (B.S.) and Computer Science (B.A.)}
 	\resumeItem{Minor in Chemistry, Artificial Intelligence}
 	\resumeItem{Current GPA: 4.0/4.0}
-	\resumeItem{Height-lighted Coursework: Neurobiology, Statistical Learning, Artificial Intelligence, Mathematical modeling in Biological Systems, Statistics for Signal Processing, Computational Neuroscience (\textit{Spring 2023}).}
+	\resumeItem{High-lighted Coursework: Neurobiology, Statistical Learning, Artificial Intelligence, Mathematical modeling in Biological Systems, Statistics for Signal Processing, Computational Neuroscience (\textit{Spring 2023})}
 	\resumeItemListEnd
 	\resumeSubHeadingListEnd
-	
-	%-----------Publication----------
-	\section{PUBLICATIONS}
-	\begin{enumerate}[itemsep=-2pt, parsep=5pt]
-		\item Brostek, A., Hong, N. J., \underline{Zhang, R.}, Forester, B. R., Barmore, L. E., Kaydo, L., Kluge, N., Smith, C., Garvin, J. L., and Gonzalez-Vicente, A.(2022) \textbf{Independent Effects of Sex and Stress on Fructose-Induced Salt-Sensitive Hypertension}. \textit{Physiological Reports}, \textit{10}, e15489. \url{https://doi.org/10.14814/phy2.15489}. 
-	\end{enumerate}
 	
 	%-----------RESEARCH INTEREST----------
 	\section{RESEARCH INTEREST}
 	\resumeSubHeadingListStart
 	\resumeResearchHeading{NeuroEngineering / Computational Neuroscience}{}
 	\resumeItemListStart
-	\resumeItem{To understand the computational foundation of perception and motor systems: interaction with the world}
-	\resumeItem{To enhance the performance of BMI or neuroprosthetics: better approaches for rehabilitation and research }
-	\resumeItem{To learn the signal propagation and representation in neural networks: information processing in our brain}
-	\resumeItem{To develop neuromodulation and stimulation techniques: coding neuronal behavior and treating neurological diseases}
+	\resumeItem{Computational foundation of sensory perception and motor systems}
+	\resumeItem{Brain Computer Interface and neuroprosthetics for rehabilitation}
+	\resumeItem{Signal propagation and information processing in neural networks}
+	\resumeItem{Neuromodulation and stimulation techniques for neurological diseases}
 	\resumeItemListEnd
 	\resumeSubHeadingListEnd      
 	
@@ -149,57 +142,56 @@
 	\section{RESEARCH EXPERIENCE}
 	\resumeSubHeadingListStart
 	\resumeSubheading
-	{Bensmaia Lab, Department of Organismal Biology \& Anatomy}{May 2022 -- August 2022}
-	{Full Time Undergraduate Research Assistant}{University of Chicago, Chicago, IL}
+	{Department of Organismal Biology \& Anatomy, University of Chicago}{May 2022 -- August 2022}
+	{Research Assistant}{PI: Dr. Sliman Bensmaia}
 	\resumeItemListStart
-	\resumeItem{Investigated the contribution of skin biomechanics to tactile perception and its neural basis. }
-	\resumeItem{Used MATLAB and \texttt{touchSim} package to simulate mechanical indentation profiles of finger tips and spike trains of afferent population.}
-	\resumeItem{Developed and optimized algorithms to eliminate signal offsets and normalize pressing pressure.}
+	\resumeItem{Investigated the neural basis of skin biomechanics in tactile perception}
+	\resumeItem{Observed Brain Computer Interface sessions on human patients for recording cortical activities and mapping sensory-motor functions in the virtual environment}
+	\resumeItem{Used MATLAB to simulate mechanical indentation profiles and spike trains of afferent mechanoreceptors of fingertips on over 20 compliant textures}
+	\resumeItem{Developed algorithms to completely reject artifacts including location offsets and light refraction of all textures for future frequency analysis of spatial signals}
 	\resumeItemListEnd
 	
 	\resumeSubheading
-	{Garvin Lab, Department of Biophysics and Physiology}{November 2019 -- Now}
-	{Part Time Undergraduate Research Assistant}{Case Western Reserve University, Cleveland, OH}
+	{Department of Physiology and Biophysics, School of Medicine, CWRU}{November 2019 -- Present}
+	{Research Assistant}{PI: Dr. Jeffrey Garvin}
 	\resumeItemListStart
-	\resumeItem{Currently constructing a pipeline for aligning and analyzing Next-Generation Sequencing data using Unix Command Lines and R programming.}
-	\resumeItem{Employed rodent models to understand the effect of dietary fructose on the development of salt-sensitive hypertension.}
-	\resumeItem{Practiced Kidney Perfusion Surgeries on rodent models for experimental purposes.}
-	\resumeItem{Familiared with biological experiments and equipment for quantitative studies, including western blot, and fluorometer.}
-	\resumeItemListEnd
-	\resumeSubHeadingListEnd
-	%----------ACADEMIC EXPERIENCE----------
-	\section{OTHER ACADEMIC EXPERIENCE}
-	\resumeSubHeadingListStart
-	\resumeSubheading
-	{Willis Lab, Department of Biology}{December 2021 -- January 2022}
-	{Animal Caring Assistant}{Case Western Reserve University}
-	\resumeItemListStart
-	\resumeItem{Maintained the moth (\textit{Manduca sexta}) colony during winter vacation.}
-	\resumeItem{Prepared daily nutrition and removed waste to meet the need of individuals at different developing stages.}
+	\resumeItem{Investigated the mechanism of fructose-induced salt-sensitive hypertension}
+	\resumeItem{Helped perform analysis on urinary norepinephrine to study the role of sympathetic response in hypertension}
+	\resumeItem{Practiced kidney perfusion surgeries on rodents to obtain high-quality proximal tubule suspensions for analyzing oxidative stress using luminescent detection}
+	\resumeItem{Currently constructing scripts using R and Unix Command Lines for determining transcriptional changes in response to dietary fructose ingestion}
 	\resumeItemListEnd
 	
 	\resumeSubheading
-	{Operating Rooms, Department of Neurological Surgery}{December 2019}
-	{Student Observer}{University Hospitals Cleveland Medical Center}
+	{Department of Biology,  CWRU}{December 2021 -- January 2022}
+	{Research Assistant}{PI: Dr. Mark Willis}
 	\resumeItemListStart
-	\resumeItem{Shadowed surgeries performed by medical professionals from the Department of Neurological Surgery for over 40 hours.}
+	\resumeItem{Prepared daily nutrition and removed wastes to meet the needs of  moth (\textit{Manduca sexta}) at different developing stages}
 	\resumeItemListEnd
 	\resumeSubHeadingListEnd 
+
+    %-----------Publication----------
+	\section{PUBLICATIONS}
+	\begin{itemize}[itemsep=-2pt, parsep=5pt]
+		\item[] Brostek, A., Hong, N. J., \textbf{Zhang, R.}, Forester, B. R., Barmore, L. E., Kaydo, L., Kluge, N., Smith, C., Garvin, J. L., and Gonzalez-Vicente, A.(2022) Independent Effects of Sex and Stress on Fructose-Induced Salt-Sensitive Hypertension. \textit{Physiological Reports}, \textit{10}, e15489. \url{https://doi.org/10.14814/phy2.15489}. 
+	\end{itemize}
 	
 	%----------WORK EXPERIENCE----------
 	\section{WORK EXPERIENCE}
 	\resumeSubHeadingListStart
 	\resumeProjectHeading
-	{\textbf{Undergraduate Teaching Assistance}}{August 2022 - Current}
+	{\textbf{Undergraduate Teaching Assistance}}{August 2021 - Current}
 	\resumeSubItem{Jobs \& Work Load}
 	\resumeItemListStart
-	\resumeItem{Held Office Hours; Graded Homework Assignments; Assisted Classroom Activities; Held Laboratory Sessions.}
+	\resumeItem{Held office hours; Graded homework assignments; Assisted classroom activities; Held laboratory sessions.}
 	\resumeItem{Worked 5 - 12 hours per week for each course beneath.}
 	\resumeItemListEnd
 	\vspace{-5px}
 	\resumeSubItem{Course List}
 	\resumeItemListStart
-	\resumeItem{\textbf{BIOL373} \textit{Introduction to Neurobiology} (Fall 2022); \textbf{BIOL300} \textit{Dynamics of Biological Systems: A Quantitative Introduction to Biology} (Spring 2022); \textbf{ENGR131} \textit{Elementary Computer Programming - MATLAB} (Fall 2021); \textbf{BIOL214} \textit{Genes, Evolution and Ecology} (Fall 2021)}
+	\resumeItem{\textbf{BIOL373} {Introduction to Neurobiology} (\textit{Fall 2022})}
+	\resumeItem{\textbf{BIOL300} {Dynamics of Biological Systems: A Quantitative Introduction to Biology} (\textit{Spring 2022})}
+	\resumeItem{\textbf{ENGR131} {Elementary Computer Programming - MATLAB} (\textit{Fall 2021})}
+	\resumeItem{\textbf{BIOL214} {Genes, Evolution and Ecology} (\textit{Fall 2021})}
 	\resumeItemListEnd
 	\vspace{-5px}
 	\resumeSubHeadingListEnd 
@@ -211,7 +203,7 @@
 	{Center of Emergency Medicine}{January 2020 -- March 2020}
 	{Adult Emergency Volunteer}{University Hospitals Cleveland Medical Center}
 	\resumeItemListStart
-	\resumeItem{Cleaned, disinfected, and prepared rooms for incoming patients.}
+	\resumeItem{Cleaned, disinfected, and prepared rooms for incoming patients}
 	\resumeItemListEnd
 	\vspace{-5px}
 	
@@ -219,7 +211,7 @@
 	{Division of Cardiovascular Medicine}{June 2020 -- September 2020}
 	{Comfort Rounder Volunteer}{University Hospitals Cleveland Medical Center}
 	\resumeItemListStart
-	\resumeItem{Provided best care by developing rapport with patients during the pandemic.}
+	\resumeItem{Provided best care and developed a rapport with patients by conversing with them during the pandemic}
 	\resumeItemListEnd
 	\vspace{-5px}
 	
@@ -227,7 +219,15 @@
 	{Seidman Cancer Center}{Sep 2020 -- December 2020}
 	{Infusion Courier Volunteer}{University Hospitals Cleveland Medical Center}
 	\resumeItemListStart
-	\resumeItem{Organized the transportation of Humoral specimens to the designated Laboratory.}
+	\resumeItem{Organized the transportation of humoral specimens to the designated laboratory}
+	\resumeItemListEnd
+	\vspace{-5px}
+	
+	\resumeSubheading
+	{Operating Rooms, Department of Neurological Surgery}{December 2019}
+	{Student Observer}{University Hospitals Cleveland Medical Center}
+	\resumeItemListStart
+	\resumeItem{Shadowed surgeries performed by medical professionals from the Department of Neurological Surgery for over 40 hours}
 	\resumeItemListEnd
 	\vspace{-5px}
 	
@@ -235,21 +235,22 @@
 	{MedWish International }{Sep 2019 -- November 2019}
 	{Student Volunteer}{Cleveland, OH}
 	\resumeItemListStart
-	\resumeItem{Assisted to fix and pack medical devices for delivery to developing countries.}
+	\resumeItem{Assisted in fixing medical devices according to the instructions provided}
+	\resumeItem{Packed devices according to international standards to have them delivered to developing nations}
 	\resumeItemListEnd
 	\vspace{-5px}
 	
 	\resumeSubHeadingListEnd 
 	
 	%-----------CERTIFICATES-----------
-	\section{CERTIFICATES}
+	\section{AWARDS \& HONORS}
 	\vspace{-5pt}
 	\resumeSubHeadingListStart
 	
 	\resumeProjectHeading
 	{\textbf{Dean's High Honor} $|$ \emph{Case Western Reserve University}}{Latest Award: June 2022}
 	\resumeItemListStart
-	\resumeItem{Awarded for the following semesters: Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021,and Spring 2022.}
+	\resumeItem{Awarded for the following semesters: Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021, and Spring 2022.}
 	\resumeItemListEnd
 	\vspace{-20pt}
 	
@@ -268,60 +269,40 @@
 	\resumeProjectHeading
 	{\textbf{Heartsaver CPR \& AED Certificate} $|$ \emph{American Heart Association}}{January 2020}
 	\resumeSubHeadingListEnd
-	\vspace{-10pt}
+	\vspace{-15pt}
 	
 	%-----------PROGRAMMING SKILLS-----------
 	\section{TECHNICAL SKILLS}
 	%\resumeSubHeadingListStart
-	\begin{multicols}{4}
+	%\begin{multicols}{2}
 		\begin{itemize}[itemsep=-2pt, parsep=5pt]
-			\item\small R Programming
-			\item       MATLAB 
-			\item       Java
-			\item       MySQL
-			\item       LaTex
-			\item       Unity
-			\item       GitHub \& Git 
-			\item       Unix Command Lines
-			
+			\item \textbf{Programming Languages}: \texttt{R}, \texttt{MatLab}, Unix Command Lines, \texttt{Java}, MySQL
+			\item \textbf{Tools}: \texttt{LaTex}, Unity, GitHub \& Git
+			\item \textbf{Operating Systems}: Windows, MacOS, Linux with Ubuntu
+			\item \textbf{Others}: surgeries on rodents, quantitative biological experiments, mRNA purification
 		\end{itemize}
-	\end{multicols}
+	%\end{multicols}
 	\vspace*{2.0\multicolsep}
 	%\resumeSubHeadingListEnd
-	\vspace{7pt}
 	
 	%-----------INVOLVEMENT---------------
 	\section{LEADERSHIP \& EXTRACURRICULAR ACTIVITIES}
 	\resumeSubHeadingListStart
 	\resumeSubheading{Kendo Club}{September 2019 -- March 2020}{Secretary}{Case Western Reserve University}
 	\resumeItemListStart
-	\resumeItem{Practiced Kendo and organized club activities.}
+	\resumeItem{Practiced Kendo (a modern Japanese martial art) and organized club activities}
 	\resumeItemListEnd 
 	\vspace{-5px}
 	
-	\resumeSubheading{Guqin, pronounced [ku-ch'in]}{Year 2014 -- Now}{}{} \vspace{-20px}
+	\resumeSubheading{Guqin, pronounced [ku-ch'in]}{Year 2014 -- Present}{}{} \vspace{-20px}
 	\resumeItemListStart
-	\resumeItem{Guqin is a plucked seven-string traditional Chinese musical instrument that has a history of over 3000 years.}
-	\resumeItem{Sounds are produced by plucking strings and harmonics, involving a large number of glissandi and portamenti.}
+	\resumeItem{Guqin is a plucked seven-string traditional Chinese musical instrument that has a history of over 3000 years}
+	\resumeItem{Sounds are produced by plucking strings and harmonics, involving a large number of glissandi and portamenti}
 	\resumeItemListEnd
 	\vspace{-5px}
 	
-	\resumeSubheading{Acrylic Painting \& Sketch}{Year 2010 -- Now}{}{} \vspace{-20px}
+	\resumeSubheading{Acrylic Painting \& Sketch}{Year 2010 -- Present}{}{} \vspace{-25px}
 	
 	\resumeSubHeadingListEnd
-	
-	%-----------LANGUAGES-----------
-	\section{LANGUAGES}
-	%\resumeSubHeadingListStart
-	\begin{multicols}{3}
-		\begin{itemize}[itemsep=-2pt, parsep=5pt]
-			\item\small Chinese (Native)
-			\item       English (Fluent)
-			\item       Spanish (Elementary Level)
-		\end{itemize}
-	\end{multicols}
-	\vspace*{2.0\multicolsep}
-	%\resumeSubHeadingListEnd
-	\vspace{7pt}
 	
 \end{document}
