@@ -4,10 +4,10 @@ description: An enthusiastic undergraduate student bringing strong knowledge bas
 webpage: https://ronghao-zhang.github.io
 experience:
   - start: 2022-05
-    end: 2022-08 (Expected)
+    end: 2022-08
     experience : Full-Time Undergrad RA in Bensmaia Lab, Department of Organismal Biology and Anatomy, University of Chicago 
   - start: 2021-08
-    end: 2023-05 (Expected)
+    end: 2022-12
     experience: Part-Time Undergrad TA, Department of Biology & Department of Computer Science and Data Science, Case Western Reserve University
   - start: 2019-11
     end: 2023-05 (Expected)
@@ -16,10 +16,10 @@ experience:
     end: 2023-05 (Expected)
     experience : Dual Degree in Systems Biology (B.S.) & Computer Science (B.A.), Case Western Reserve University
 interests:
-  - to understand the neural basis and computational foundation of perception and motor systems - interaction with this world
-  - to enhance the performance of Brain Machine Interfaces or neuroprosthetics - better approaches for rehabilitation and research 
-  - to learn the mechanisms that underlie signal propagation and dynamics in biological neural networks - processing of information in our brain
-  - to develop neuromodulation and stimulation techniques - coding neuronal behavior and treating neurological diseases
+  - Computational foundation of sensory perception and motor systems
+  - Brain Computer Interface and neuroprosthetics for rehabilitation
+  - Signal propagation and information processing in neural networks
+  - Neuromodulation and stimulation techniques for neurological diseases
 skills: 
   - skill: R Programming
     value: 85  
@@ -33,10 +33,6 @@ skills:
     value: 70 
   - skill: Unix Command Lines
     value: 60  
-  - skill: HTML/CSS/JavaScript
-    value: 25
-  - skill: C# & Unity
-    value: 20  
 social:
   email: ronghao.zhang.academic@gmail.com # Full email address, e.g. "sample@google.com"
   orcid: 0000-0001-6418-090X
