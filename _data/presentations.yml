@@ -5,7 +5,9 @@
 #     comment: This is some comment text that can do _Markdown_
 #     slides: https://www.google.com # potential link to slides
 - presentation:
-    title: Ronghao's Undergraduate Research Projects
-    event: Ph.D. Application Interview
-    date: 01/2023
+    title: Fructose-Induced Aldosterone Response in Distal Tubules 
+    event: Cleveland Kidney Center Renal Chalk Talks
+    date: 2023-04-07
+    comment: Given an oral presentation at this local renal research meeting as an undergraduate student.
+    website: https://case.edu/medicine/clecreatekuh/academic-environment/cleveland-kidney-center
     slides: https://github.com/ronghao-zhang/undergrad-project-slide/blob/main/slides.pdf

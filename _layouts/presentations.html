@@ -14,6 +14,9 @@ layout: page
           {%- if presentation.slides %}
             [<a href="{{ presentation.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>]
           {%- endif %}
+          {%- if presentation.website %}
+            [<a href="{{ presentation.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>]
+          {%- endif %}
         </div>
       </li>
     {% endfor %}
