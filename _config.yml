@@ -28,6 +28,7 @@ theme_settings:
   skills_title: SKILLS
   projects_title: PROJECTS
   recentpubs_title: RECENT PUBLICATIONS
+  education_title: EDUCATION
 
 # Pagination
 paginate: 10

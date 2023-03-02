@@ -1,0 +1,9 @@
+<p class="title">{{ site.theme_settings.education_title }}</p>
+<ul class="exper-list">
+  {% for exp in site.data.profile.education %}
+  <li class="meta">
+    <p class="date">{{ exp.start }} &ndash; {{ exp.end }}</p>
+    <p class="description">{{ exp.education }}</p>
+  </li>
+  {% endfor %}
+</ul>
