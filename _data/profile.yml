@@ -2,23 +2,26 @@ image: assets/img/rz_portrait.png
 username: Ronghao Zhang
 description: 
     <p> An enthusiastic undergraduate student bringing strong knowledge base in Systems Biology and Computer Science.</p>
-    <p> Current Undergraduate Student at Case Western Reserve University </p>
 webpage: https://ronghao-zhang.github.io
 education: 
   - start: 2019-08
     end: 2023-05 (Expected)
-    education : Dual Degree in Systems Biology (B.S.) & Computer Science (B.A.), Case Western Reserve University
+    education : Bachelor of Science in Systems Biology, Case Western Reserve University
+  - start: 2019-08
+    end: 2023-05 (Expected)
+    education : Bachelor of Arts in Computer Science, Case Western Reserve University
 experience:
   - start: 2022-05
     end: 2022-08
-    experience : Full-Time Undergrad RA in Bensmaia Lab, Department of Organismal Biology and Anatomy, University of Chicago 
+    experience : Research Student, Bensmaia Lab, Department of Organismal Biology and Anatomy, University of Chicago 
   - start: 2021-08
     end: 2022-12
-    experience: Part-Time Undergrad TA, Department of Biology & Department of Computer Science and Data Science, Case Western Reserve University
+    experience: Teaching Assistant, Department of Biology & Department of Computer Science and Data Science, Case Western Reserve University
   - start: 2019-11
     end: 2023-05 (Expected)
-    experience : Part-Time Undergrad RA in Garvin Lab, Department of Biophysics and Physiology, SOM, Case Western Reserve University
-interests:
+    experience : Research Assistant, Garvin Lab, Department of Physiology and Biophysics, School of Medicine, Case Western Reserve University
+interests:          
+  - quantitative MRI (NeuroImaging)
   - Computational foundation of sensory perception and motor systems
   - Brain Computer Interface and neuroprosthetics for rehabilitation
   - Signal propagation and information processing in neural networks
