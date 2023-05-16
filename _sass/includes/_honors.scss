@@ -1,0 +1,27 @@
+#honors {
+    position: relative;
+    overflow: hidden;
+    .honors-wrap {
+      @extend %page-padding;
+      padding-top: 50px!important;
+      margin-bottom: 55px;
+      p.title {
+        padding-left: 10px;
+        color: $theme-dark;
+        font-size: 25px;
+        font-weight: 600;
+      }
+    }
+    .honor-list {
+      margin-top: 1rem;
+    }
+    .bg {
+        content: "";
+        z-index: -99;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+  }

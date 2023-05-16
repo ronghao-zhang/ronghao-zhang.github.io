@@ -29,6 +29,7 @@ theme_settings:
   projects_title: PROJECTS
   recentpubs_title: RECENT PUBLICATIONS
   education_title: EDUCATION
+  honors_title: HONORS & AWARDS
 
 # Pagination
 paginate: 10

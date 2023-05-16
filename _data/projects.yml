@@ -1,103 +1,103 @@
-- project :
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    image:
-      path: uta_cover.jpg # path: assets/project/
-      alt: "UTA Cover Figure"
-    date: 2019-12 &ndash; 2020-11 
-    title: Undergraduate Teaching Assistant
-    summary: Colleges offer me a chance to learn new knowledge and participate in various opportunities. Therefore, I anticipate helping and tutoring other students with my experience. I have already been a TA for several different courses. Click the button below to see more!
-    description: Served as an Undergraduate Teaching Assistant for multiple courses in the Department of Biology and the Department of Computer Science and Data Science.
-    contents:
-        - title: BIOL373 - Introduction To Neurobiology 
-          image:
-            path: uta_biol373.jpg
-            alt: "BIOL373 Figure"
-          description: 
-            <p><b>Time:</b> 2022-08 ~ 2022-12</p>
-            <p><b>Course Info:</b> An introductory laboratory course that discusses the biophysical and electrophysiological properties of neurons as well as their functions within networks using quantitative simulation tools.</p>
-            <p><b>My Role:</b></p>
-            <li>Held Office Hours</li>
-            <li>Graded Homework Assignments</li>
-            <li>Assisted Classroom Activities</li>
-        - title: BIOL300 - Dynamics of Biological Systems
-          image:
-            path: uta_biol300.jpg
-            alt: "BIOL300 Figure"
-          description: 
-            <p><b>Time:</b> 2022-01 ~ 2022-05</p>
-            <p><b>Course Info:</b> An introductory laboratory course that discusses the dynamics of biological systems and the procedures of analyzing and manipulating biological processes using mathematical tools.</p>
-            <p><b>My Role:</b></p>
-            <li>Held Office Hours</li>
-            <li>Graded Homework Assignments</li>
-            <li>Assisted Classroom Activities</li>
-        - title: ENGR 131 - Elementary Computer Programming (MATLAB)
-          image:
-            path: uta_engr131.jpg
-            alt: "ENGR131 Figure"
-          description: 
-            <p><b>Time:</b> 2021-08 ~ 2021-12</p>
-            <p><b>Course Info:</b> An introductory lecture and laboratory course that discusses the fundamental concepts in computer programming including if-else statements, for loops, and Fast-Fourier Transformation. The main programming language used is MATLAB.</p>
-            <p><b>My Role:</b></p>
-            <li>Held Office Hours</li>
-            <li>Held Laboratory Sessions</li>
-        - title: BIOL214 - Genes, Evolution and Ecology
-          image:
-            path: uta_biol214.jpg
-            alt: "BIOL214 Figure"
-          description: 
-            <p><b>Time:</b> 2021-08 ~ 2021-12</p>
-            <p><b>Course Info:</b> An introductory lecture course that discusses the fundamental biological concepts including cell cycles, gene expression, evolution, and biological diversity.</p>
-            <p><b>My Role:</b></p>
-            <li>Held Office Hours</li>
-            <li>Assisted Classroom Activities</li>
-- project :
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    image:
-      path: "volunteer_cover.png" # path: assets/project/
-      alt: "Cover Page of the Shadowing and Volunteer Project"
-    date: 2019-12 &ndash; 2020-11 
-    title: Student Volunteering
-    summary: I served as an Adult Emergency Volunteer in University Hospitals during the pandemic, transferring patients' specimens to pathology laboratories, and doing errands for patients in the Division of Cardiovascular Medicine. Additionally, I participated in an observation program in the Department of Neurological Surgery.
-    description: Served as a student volunteer and observer at University Hospitals Cleveland Medical Center during the Pandemic.
-    contents:
-        - title: Infusion Courier Volunteer
-          image:
-            path: volunteer_4.jpg
-            alt: "ICV Figure"
-          description: 
-            <p><b>Time:</b> 2020-09 ~ 2020-11</p> 
-            <p><b>Location:</b> Seidman Cancer Center</p>
-            <p><b>My Role:</b></p>
-            <li>Organized the transportation of Humoral specimens</li>
-        - title: Comfort Rounder Volunteer
-          image:
-            path: volunteer_3.jpg
-            alt: "CRV Figure"
-          description: 
-            <p><b>Time:</b> 2020-06 ~ 2020-09</p> 
-            <p><b>Location:</b> Division of Cardiovascular Medicine</p>
-            <p><b>My Role:</b></p>
-            <li>Developed strong and trusting rapport with patients</li>
-            <li>Checked wheelchair and stretcher functionality</li>
-            <li>Provided patient transport using various equipment</li>
-        - title: Adult Emergency Volunteer
-          image:
-            path: volunteer_2.jpg
-            alt: "CEM Figure"
-          description: 
-            <p><b>Time:</b> 2020-01 ~ 2020-03</p> 
-            <p><b>Location:</b> Center of Emergency Medicine</p>
-            <p><b>My Role:</b></p>
-            <li>Cleaned, disinfected, and prepared rooms for incoming patients</li>
-        - title: Student Observer
-          image:
-            path: volunteer_1.jpg
-            alt: "Student Observer Figure"
-          description: 
-            <p><b>Time:</b> 2019-12</p> 
-            <p><b>Location:</b> Department of Neurological Surgery</p>
-            <p><b>My Role:</b></p>
-            <li>Shadowed neurological surgeries for over 40 hours</li> 
+# - project :
+#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+#     image:
+#       path: uta_cover.jpg # path: assets/project/
+#       alt: "UTA Cover Figure"
+#     date: 2019-12 &ndash; 2020-11 
+#     title: Undergraduate Teaching Assistant
+#     summary: Colleges offer me a chance to learn new knowledge and participate in various opportunities. Therefore, I anticipate helping and tutoring other students with my experience. I have already been a TA for several different courses. Click the button below to see more!
+#     description: Served as an Undergraduate Teaching Assistant for multiple courses in the Department of Biology and the Department of Computer Science and Data Science.
+#     contents:
+#         - title: BIOL373 - Introduction To Neurobiology 
+#           image:
+#             path: uta_biol373.jpg
+#             alt: "BIOL373 Figure"
+#           description: 
+#             <p><b>Time:</b> 2022-08 ~ 2022-12</p>
+#             <p><b>Course Info:</b> An introductory laboratory course that discusses the biophysical and electrophysiological properties of neurons as well as their functions within networks using quantitative simulation tools.</p>
+#             <p><b>My Role:</b></p>
+#             <li>Held Office Hours</li>
+#             <li>Graded Homework Assignments</li>
+#             <li>Assisted Classroom Activities</li>
+#         - title: BIOL300 - Dynamics of Biological Systems
+#           image:
+#             path: uta_biol300.jpg
+#             alt: "BIOL300 Figure"
+#           description: 
+#             <p><b>Time:</b> 2022-01 ~ 2022-05</p>
+#             <p><b>Course Info:</b> An introductory laboratory course that discusses the dynamics of biological systems and the procedures of analyzing and manipulating biological processes using mathematical tools.</p>
+#             <p><b>My Role:</b></p>
+#             <li>Held Office Hours</li>
+#             <li>Graded Homework Assignments</li>
+#             <li>Assisted Classroom Activities</li>
+#         - title: ENGR 131 - Elementary Computer Programming (MATLAB)
+#           image:
+#             path: uta_engr131.jpg
+#             alt: "ENGR131 Figure"
+#           description: 
+#             <p><b>Time:</b> 2021-08 ~ 2021-12</p>
+#             <p><b>Course Info:</b> An introductory lecture and laboratory course that discusses the fundamental concepts in computer programming including if-else statements, for loops, and Fast-Fourier Transformation. The main programming language used is MATLAB.</p>
+#             <p><b>My Role:</b></p>
+#             <li>Held Office Hours</li>
+#             <li>Held Laboratory Sessions</li>
+#         - title: BIOL214 - Genes, Evolution and Ecology
+#           image:
+#             path: uta_biol214.jpg
+#             alt: "BIOL214 Figure"
+#           description: 
+#             <p><b>Time:</b> 2021-08 ~ 2021-12</p>
+#             <p><b>Course Info:</b> An introductory lecture course that discusses the fundamental biological concepts including cell cycles, gene expression, evolution, and biological diversity.</p>
+#             <p><b>My Role:</b></p>
+#             <li>Held Office Hours</li>
+#             <li>Assisted Classroom Activities</li>
+# - project :
+#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+#     image:
+#       path: "volunteer_cover.png" # path: assets/project/
+#       alt: "Cover Page of the Shadowing and Volunteer Project"
+#     date: 2019-12 &ndash; 2020-11 
+#     title: Student Volunteering
+#     summary: I served as an Adult Emergency Volunteer in University Hospitals during the pandemic, transferring patients' specimens to pathology laboratories, and doing errands for patients in the Division of Cardiovascular Medicine. Additionally, I participated in an observation program in the Department of Neurological Surgery.
+#     description: Served as a student volunteer and observer at University Hospitals Cleveland Medical Center during the Pandemic.
+#     contents:
+#         - title: Infusion Courier Volunteer
+#           image:
+#             path: volunteer_4.jpg
+#             alt: "ICV Figure"
+#           description: 
+#             <p><b>Time:</b> 2020-09 ~ 2020-11</p> 
+#             <p><b>Location:</b> Seidman Cancer Center</p>
+#             <p><b>My Role:</b></p>
+#             <li>Organized the transportation of Humoral specimens</li>
+#         - title: Comfort Rounder Volunteer
+#           image:
+#             path: volunteer_3.jpg
+#             alt: "CRV Figure"
+#           description: 
+#             <p><b>Time:</b> 2020-06 ~ 2020-09</p> 
+#             <p><b>Location:</b> Division of Cardiovascular Medicine</p>
+#             <p><b>My Role:</b></p>
+#             <li>Developed strong and trusting rapport with patients</li>
+#             <li>Checked wheelchair and stretcher functionality</li>
+#             <li>Provided patient transport using various equipment</li>
+#         - title: Adult Emergency Volunteer
+#           image:
+#             path: volunteer_2.jpg
+#             alt: "CEM Figure"
+#           description: 
+#             <p><b>Time:</b> 2020-01 ~ 2020-03</p> 
+#             <p><b>Location:</b> Center of Emergency Medicine</p>
+#             <p><b>My Role:</b></p>
+#             <li>Cleaned, disinfected, and prepared rooms for incoming patients</li>
+#         - title: Student Observer
+#           image:
+#             path: volunteer_1.jpg
+#             alt: "Student Observer Figure"
+#           description: 
+#             <p><b>Time:</b> 2019-12</p> 
+#             <p><b>Location:</b> Department of Neurological Surgery</p>
+#             <p><b>My Role:</b></p>
+#             <li>Shadowed neurological surgeries for over 40 hours</li> 
   
