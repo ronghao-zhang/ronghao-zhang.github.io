@@ -5,9 +5,22 @@
 #     comment: This is some comment text that can do _Markdown_
 #     slides: https://www.google.com # potential link to slides
 - presentation:
-    title: Fructose-Induced Aldosterone Response in Distal Tubules 
+    title: Addition of fructose to a high-salt diet increases the expression of aldosterone-response genes in the kidney
+    event: American Physiology Summit 2023 
+    location: Long Beach, CA, U.S.
+    date: 2023-04-21 
+    comment: Poster presentation at American Physiology Summit 2023 as an undergraduate student.
+- presentation:
+    title: Single-cell transcriptional phenotypes linked to anatomical localization of fructose transporters in rat proximal tubule segments
+    event: American Physiology Summit 2023 
+    location: Long Beach, CA, U.S.
+    date: 2023-04-21 
+    comment: Poster presentation at American Physiology Summit 2023 as an undergraduate student. 
+- presentation:
+    title: Fructose-induced aldosterone response in distal tubules
     event: Cleveland Kidney Center Renal Chalk Talks
-    date: April 2023
-    comment: Given an oral presentation at this local renal research meeting as an undergraduate student.
+    location: Cleveland, OH, U.S.
+    date: 2023-04-07
+    comment: Oral presentation at Cleveland area renal research conference as an undergraduate student.
     website: https://case.edu/medicine/clecreatekuh/academic-environment/cleveland-kidney-center
     slides: https://github.com/ronghao-zhang/undergrad-project-slide/blob/main/slides.pdf

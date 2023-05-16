@@ -4,11 +4,14 @@ description:
     <p> An enthusiastic undergraduate student bringing strong knowledge base in Systems Biology and Computer Science.</p>
 webpage: https://ronghao-zhang.github.io
 education: 
+  - start: 2023-08
+    end: 2028-05 (Expected)
+    education: Currently Enroll in Joint Biomedical Engineering Doctoral Program, Georgia Tech & Emory University
   - start: 2019-08
-    end: 2023-05 (Expected)
+    end: 2023-05
     education : Bachelor of Science in Systems Biology, Case Western Reserve University
   - start: 2019-08
-    end: 2023-05 (Expected)
+    end: 2023-05
     education : Bachelor of Arts in Computer Science, Case Western Reserve University
 experience:
   - start: 2022-05
@@ -20,8 +23,7 @@ experience:
   - start: 2019-11
     end: 2023-05 (Expected)
     experience : Research Assistant, Garvin Lab, Department of Physiology and Biophysics, School of Medicine, Case Western Reserve University
-interests:          
-  - quantitative MRI (NeuroImaging)
+interests:
   - Computational foundation of sensory perception and motor systems
   - Brain Computer Interface and neuroprosthetics for rehabilitation
   - Signal propagation and information processing in neural networks

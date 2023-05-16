@@ -14,21 +14,52 @@
         color:#fff;
         margin-bottom: 30px;
     }
-    ol.presentations-list{
+    ol.presentations-list {
         list-style-type: none;
+      
         li {
-            font-size: 1.05rem;
-            margin-bottom: 1.5rem;
-            .title {
-                font-weight: bolder;
-                font-style: normal;
-            }
-            .event {
-            }
-            .date {
-                font-style: normal;
-                margin-left: 0.5rem;
-            }
+          margin-top: 2rem;
+          border-top: 1px solid $divider-color;
+          padding-top: 0.5rem;
+          font-size: 1.05rem;
+          margin-bottom: 1.5rem;
+
+          .title {
+            font-weight: bolder;
+            font-style: normal;
+          }
+
+          .event {
+            font-style: italic;
+          }
+
+          .comment {
+            color: #808080;
+          }
+
+          .present-container{
+            display: flex; /* Add this line to enable flexbox layout */
+            align-items: baseline; /* Add this line to align elements vertically */
+          }
+
+          .date {
+            flex: 1; /* Add this line to make the date take remaining space */
+            text-align: left;
+            color: $theme-dark2;
+            font-weight: bolder;
+            font-size: 25px;
+            font-style: normal;
+          }
+      
+          .location {
+            flex: 1; /* Add this line to make the location take remaining space */
+            text-align: right;
+            color: $theme-color;
+            font-weight: bolder;
+            font-size: 25px;
+            font-style: normal;
+          }
         }
-    }
+      }
+      
 }

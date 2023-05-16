@@ -8,8 +8,12 @@ layout: page
     {% for _ in site.data.presentations %}
       {% assign presentation = _.presentation %}
       <li>
-        <em class="title">{{ presentation.title }}</em> at <em class="event">{{ presentation.event }}</em> <em class="date">({{ presentation.date }})</em>
-        <p class="comment">{{ presentation.comment | markdownify }}</p>
+        <div class="present-container">
+          <p class="date">{{presentation.date}}</p> 
+          <p class="location">{{ presentation.location }}</p>
+        </div>
+        <em class="title">{{ presentation.title }}</em> at <em class="event">{{ presentation.event }}</em> 
+        <p class="comment">{{ presentation.comment }}</p>
         <div class="links">
           {%- if presentation.slides %}
             [<a href="{{ presentation.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>]
