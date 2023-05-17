@@ -7,6 +7,7 @@
       margin-bottom: 55px;
       p.title {
         padding-left: 10px;
+        padding-bottom: 10px;
         color: $theme-dark;
         font-size: 25px;
         font-weight: 600;
@@ -14,6 +15,30 @@
     }
     .honor-list {
       margin-top: 1rem;
+    }
+    ul.meta {
+      margin-left: -20px;
+      list-style-position: inside;
+      position: relative;
+      padding: 0px 0px 15px 30px;
+      p {
+        line-height: 1rem;
+      }
+      .date {
+        font-weight: 600;
+        font-size: 0.75rem;
+        color: rgba(0, 0, 0, 0.5);
+      }
+      .description {
+        font-style: normal;
+        font-size: 1rem;
+      }
+      b.award-name {
+        color: rgba(0, 0, 0, 0.65);
+      }
+      em.organization {
+        color: $theme-color;
+      }
     }
     .bg {
         content: "";
