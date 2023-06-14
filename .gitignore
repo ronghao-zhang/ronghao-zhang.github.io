@@ -4,3 +4,11 @@
 _site
 Gemfile.lock
 .jekyll-cache/
+.DS_Store
+assets/pdfs/.DS_Store
+assets/.DS_Store
+.DS_Store
+assets/pdfs/curriculum_vitae/Ronghao_Zhang_Curriculum_Vitae.fdb_latexmk
+assets/pdfs/curriculum_vitae/Ronghao_Zhang_Curriculum_Vitae.fls
+assets/pdfs/curriculum_vitae/Ronghao_Zhang_Curriculum_Vitae.log
+assets/pdfs/curriculum_vitae/Ronghao_Zhang_Curriculum_Vitae.synctex.gz
