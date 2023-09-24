@@ -1,12 +1,13 @@
 image: assets/img/rz_portrait.jpg
 username: Ronghao Zhang
 description: 
-    <p> A first-year Ph.D. student in the Wallace H. Coulter Department of Biomedical Engineering at Emory University and Georgia Institute of Technology.</p>
+    <p> A first-year Ph.D. student with a keen interest in applying or developing computational and engineering tools 
+    to understand the complexities of physiology, aiming to contribute to advancements in medical research.</p>
 webpage: https://ronghao-zhang.github.io
 education: 
   - start: 2023-08
     end: 2028-08 (Expected)
-    education: Ph.D. student in Biomedical Engineering, Georgia Institute of Technology & Emory University
+    education: Ph.D. student in Biomedical Engineering, Joint Georgia Institute of Technology & Emory University
   - start: 2019-08
     end: 2023-05
     education : Bachelor of Science in Systems Biology, Case Western Reserve University
