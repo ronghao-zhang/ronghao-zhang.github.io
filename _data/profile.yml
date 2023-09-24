@@ -1,12 +1,12 @@
-image: assets/img/rz_portrait.png
+image: assets/img/rz_portrait.jpg
 username: Ronghao Zhang
 description: 
-    <p> An enthusiastic undergraduate student bringing strong knowledge base in Systems Biology and Computer Science.</p>
+    <p> A first-year Ph.D. student in the Wallace H. Coulter Department of Biomedical Engineering at Emory University and Georgia Institute of Technology.</p>
 webpage: https://ronghao-zhang.github.io
 education: 
   - start: 2023-08
-    end: 2028-05 (Expected)
-    education: Currently Enroll in Joint Biomedical Engineering Doctoral Program, Georgia Tech & Emory University
+    end: 2028-08 (Expected)
+    education: Ph.D. student in Biomedical Engineering, Georgia Institute of Technology & Emory University
   - start: 2019-08
     end: 2023-05
     education : Bachelor of Science in Systems Biology, Case Western Reserve University
@@ -14,28 +14,37 @@ education:
     end: 2023-05
     education : Bachelor of Arts in Computer Science, Case Western Reserve University
 experience:
+  - start: 2023-08
+    end: now
+    experience : Graduate Research Assistant, Emanual Lab, Department of Cell Biology, Emory University
   - start: 2022-05
     end: 2022-08
-    experience : Research Student, Bensmaia Lab, Department of Organismal Biology and Anatomy, University of Chicago 
+    experience : Summer Research Student, Bensmaia Lab, Department of Organismal Biology and Anatomy, University of Chicago 
   - start: 2021-08
     end: 2022-12
-    experience: Teaching Assistant, Department of Biology & Department of Computer Science and Data Science, Case Western Reserve University
+    experience: Undergrad Teaching Assistant, Department of Biology & Department of Computer Science and Data Science, Case Western Reserve University
   - start: 2019-11
-    end: 2023-05 (Expected)
-    experience : Research Assistant, Garvin Lab, Department of Physiology and Biophysics, School of Medicine, Case Western Reserve University
+    end: 2023-05
+    experience : Undergrad Research Assistant, Garvin & Gonzalez-Vicente Lab, Department of Physiology and Biophysics, School of Medicine, Case Western Reserve University
 interests:
+ - Transduction of touch stimuli
+ - Transmission and processing of tactile information
+ - Neural somatosensory representation
+ - Adaptive sensing imposed by natural behaviors
 skills: 
   - skill: R Programming
     value: 85  
+  - skill: Python & Miniconda
+    value: 85
   - skill: MatLab
     value: 85  
-  - skill: MySQL & Queries
-    value: 80  
+  - skill: Unix Command Lines
+    value: 80
   - skill: LaTex
     value: 75 
   - skill: Java
     value: 70 
-  - skill: Unix Command Lines
+  - skill: MySQL & Queries
     value: 60  
 social:
   email: ronghao.zhang.academic@gmail.com # Full email address, e.g. "sample@google.com"
