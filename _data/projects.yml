@@ -1,3 +1,10 @@
+- project: 
+      print: True
+      modal: True
+      date: 2022-02 &ndash; 2023-05 
+      title: Fructose-Induced Upregulation of Aldosterone-Responsive Genes
+      summary: 
+#     description: Served as an Undergraduate Teaching Assistant for multiple courses in the Department of Biology and the Department of Computer Science and Data Science.
 # - project :
 #     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
 #     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
