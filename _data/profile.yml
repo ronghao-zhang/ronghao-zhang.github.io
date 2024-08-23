@@ -21,9 +21,6 @@ experience:
   - start: 2022-05
     end: 2022-08
     experience : Summer Research Student, Bensmaia Lab, Department of Organismal Biology and Anatomy, University of Chicago 
-  - start: 2021-08
-    end: 2022-12
-    experience: Undergrad Teaching Assistant, Department of Biology & Department of Computer Science and Data Science, Case Western Reserve University
   - start: 2019-11
     end: 2023-05
     experience : Undergrad Research Assistant, Garvin & Gonzalez-Vicente Lab, Department of Physiology and Biophysics, School of Medicine, Case Western Reserve University
@@ -33,24 +30,16 @@ interests:
  - Neural somatosensory representation
  - Adaptive sensing imposed by natural behaviors
 skills: 
-  - skill: R Programming
-    value: 85  
-  - skill: Python & Miniconda
-    value: 85
-  - skill: MatLab
-    value: 85  
-  - skill: Unix Command Lines
-    value: 80
-  - skill: LaTex
-    value: 75 
-  - skill: Java
-    value: 70 
-  - skill: MySQL & Queries
-    value: 60  
+  - skill: Programming mainly with Python, MATLAB, R, Java, Shell 
+    value: 90
+  - skill: Neuroimaging & Extracellular recording
+    value: 90 
+  - skill: Biological Bench Skills & Animal Surgeries
+    value: 90
 social:
   email: ronghao.zhang.academic@gmail.com # Full email address, e.g. "sample@google.com"
   orcid: 0000-0001-6418-090X
-  scholar: 
+  scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=98B8saQAAAAJ
   publons: 
   research_gate: 
   linkedin: https://www.linkedin.com/in/ronghao-zhang-a81b05234/ # Full URL 
