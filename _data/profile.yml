@@ -17,18 +17,17 @@ education:
 experience:
   - start: 2023-08
     end: now
-    experience : Graduate Research Assistant, Emanual Lab, Department of Cell Biology, Emory University
+    experience : Graduate Research Assistant, Emanual Lab, Department of Cell Biology, Emory University School of Medicine 
   - start: 2022-05
     end: 2022-08
     experience : Summer Research Student, Bensmaia Lab, Department of Organismal Biology and Anatomy, University of Chicago 
   - start: 2019-11
     end: 2023-05
-    experience : Undergrad Research Assistant, Garvin & Gonzalez-Vicente Lab, Department of Physiology and Biophysics, School of Medicine, Case Western Reserve University
+    experience : Undergrad Research Assistant, Garvin & Gonzalez-Vicente Lab, Department of Physiology and Biophysics, Case Western Reserve University School of Medicine
 interests:
- - Transduction of touch stimuli
- - Transmission and processing of tactile information
- - Neural somatosensory representation
- - Adaptive sensing imposed by natural behaviors
+ - Neural basis of sensory signal processing and perception
+ - Mechanism of sensory dysfunction and potential therapeutics in neurological diseases
+ - Brain Computer Interface and neuroprosthetics for rehabilitation
 skills: 
   - skill: Programming mainly with Python, MATLAB, R, Java, Shell 
     value: 90

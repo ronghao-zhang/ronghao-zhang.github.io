@@ -6,7 +6,12 @@
   {{reference}}
 {%- else %}
   <!-- Title -->
-  <div class="title">{{entry.title}}</div>
+  <div class="title" 
+  {% if entry.title contains "[ABSTRACT]" or entry.title contains "[PRE-PRINT]" %}
+  style="color: #b4ccd4;"{% endif %}>
+    {{entry.title}}
+  
+  </div>
   <!-- Author -->
   <div class="author">
   {%- for author in entry.author_array -%}
