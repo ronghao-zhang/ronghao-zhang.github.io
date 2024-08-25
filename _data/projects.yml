@@ -1,7 +1,7 @@
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
+    url:  https://www.biorxiv.org/content/10.1101/2024.08.19.608663v1 # Full URL
     image:
             path: fructose_ssh_project.png # path: assets/project/
             alt: "Fructose SSH Project Cover"
