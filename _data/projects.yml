@@ -18,6 +18,8 @@
           description: <p>My research identifies the expression pattern of the main fructose reabsorption transporter, SGLT5, in the proximal tubule (PT) of the nephron and its role in promoting PT oxidative stress, which likely contributes to salt-sensitive hypertension. Additionally, my findings suggest that salt-sensitive hypertension appears to result from fructose-induced increases in sodium reabsorption occurring at the aldosterone-sensitive distal nephron.</p> 
         - title: Significance
           description: <p>My contribution helps deepen the understanding of how different nephron segments are involved in the development of hypertension and provides insights into new therapeutics for elevated blood pressure, which will benefit millions of hypertensive patients.</p>
+        - title: Acknowledgments
+          description: I would like to express my special thanks of gratitude to Dr. Garvin and Dr. Gonzalez-Vicente. Without their guidance and encouragement, I would not be able to conduct this project. I also thank all colleagues and collaborators for their support in this study.  
         - title: Reference
           description: <ol><u><em>Zhang R</em></u>, Jadhav DA, Kim N, Kramer B, Gonzalez-Vicente A; Kidney Precision Medicine Project. Profiling Cell Heterogeneity and Fructose Transporter Expression in the Rat Nephron by Integrating Single-Cell and Microdissected Tubule Segment Transcriptomes. International Journal of Molecular Sciences. 2024.</ol>
                        <br></br>
