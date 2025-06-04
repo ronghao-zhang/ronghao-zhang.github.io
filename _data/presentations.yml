@@ -5,20 +5,26 @@
 #     comment: This is some comment text that can do _Markdown_
 #     slides: https://www.google.com # potential link to slides
 - presentation:
+    title: Progression of abnormal signaling in primary somatosensory cortex of MitoPark mice
+    event: Larry J. Young Memorial Research Symposium
+    location: Atlanta, GA, U.S.
+    date: 2025-05-14
+    comment: Poster presentation as a graduate student. Recipient of the Larry J. Young Memorial Symposium and Center for Behavioral Neuroscience Poster Award.
+- presentation:
     title: Addition of fructose to a high-salt diet increases the expression of aldosterone-response genes in the kidney
     event: American Physiology Summit 2023 
     location: Long Beach, CA, U.S.
     date: 2023-04-21 
-    comment: Poster presentation at American Physiology Summit 2023 as an undergraduate student.
+    comment: Poster presentation as an undergraduate student.
 - presentation:
     title: Single-cell transcriptional phenotypes linked to anatomical localization of fructose transporters in rat proximal tubule segments
     event: American Physiology Summit 2023 
     location: Long Beach, CA, U.S.
     date: 2023-04-21 
-    comment: Poster presentation at American Physiology Summit 2023 as an undergraduate student. 
+    comment: Poster presentation as an undergraduate student. Abstract of Distinction was awarded for this presentation.
 - presentation:
     title: Fructose-induced aldosterone response in distal tubules
     event: Cleveland Kidney Center Renal Chalk Talks
     location: Cleveland, OH, U.S.
     date: 2023-04-07
-    comment: Chalk Talk at Cleveland area renal research conference as an undergraduate student.
+    comment: Chalk Talk as an undergraduate student.
