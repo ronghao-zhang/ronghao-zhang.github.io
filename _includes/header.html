@@ -24,6 +24,9 @@
         <a href="{{ '/tags' | relative_url }}">
           <li class="btn-nav">Tags</li>
         </a>
+        <a href="{{ '/photography' | relative_url }}">
+          <li class="btn-nav">Photography</li>
+        </a>
         {% endif %}
         <!-- publications -->
         {% when 'publications' %}
@@ -43,6 +46,9 @@
         </a>
         <a href="{{ '/tags' | relative_url }}">
           <li class="btn-nav">Tags</li>
+        </a>
+        <a href="{{ '/photography' | relative_url }}">
+          <li class="btn-nav">Photography</li>
         </a>
         {% endif %}
         <!-- presentations -->
@@ -64,6 +70,9 @@
         <a href="{{ '/tags' | relative_url }}">
           <li class="btn-nav">Tags</li>
         </a>
+        <a href="{{ '/photography' | relative_url }}">
+          <li class="btn-nav">Photography</li>
+        </a>
         {% endif %}
         <!-- blog -->
         {% when 'blog' %}
@@ -83,6 +92,9 @@
         <li class="current">Blog</li>
         <a href="{{ '/tags' | relative_url }}">
           <li class="btn-nav">Tags</li>
+        </a>
+        <a href="{{ '/photography' | relative_url }}">
+          <li class="btn-nav">Photography</li>
         </a>
         {% endif %}
         <!-- tags -->
@@ -104,6 +116,9 @@
           <li class="btn-nav">Blog</li>
         </a>
         <li class="current">Tags</li>
+        <a href="{{ '/photography' | relative_url }}">
+          <li class="btn-nav">Photography</li>
+        </a>
         {% endif %}
         {% else %}
         <!-- others -->
@@ -121,11 +136,12 @@
         </a>
         {% if site.blog %}
         <a href="{{ '/blog' | relative_url }}">
-          <li class="current btn-nav">Blog</li>
+          <li class="btn-nav">Blog</li>
         </a>
         <a href="{{ '/tags' | relative_url }}">
           <li class="btn-nav">Tags</li>
         </a>
+        <li class="current">Photography</li>
         {% endif %}
         {% endcase %}
       </ul>

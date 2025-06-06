@@ -19,6 +19,12 @@
         overflow: hidden;
         font-family: 'Source Han Serif SC', sans-serif;
         margin-bottom: 100px;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px; // 👈 Add this line
+        }
     }
 }
 .top-btn{
