@@ -1,0 +1,69 @@
+---
+layout: page
+title: Photography
+---
+
+<div id="photography">
+  <section class="bg"></section>
+  <h1 class="title">{{ page.title }}</h1>
+
+  <!-- Category Filter Buttons -->
+  <div class="category-filters">
+    <ul class="tag-cloud">
+      <li data-category="all">All</li>
+      {% assign categories = site.data.gallery | map: "picture" | map: "category" | uniq | sort %}
+      {% for cat in categories %}
+        <li data-category="{{ cat }}">{{ cat | capitalize }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+
+  <!-- Photo Gallery -->
+  <div class="gallery">
+    {% for item in site.data.gallery %}
+      {% assign photo = item.picture %}
+      <div class="photo-card" data-category="{{ photo.category }}">
+        <div class="img-wrapper">
+          <img src="{{ photo.url }}" alt="{{ photo.title }}" onclick="openLightbox(this)">
+          <div class="overlay">
+            <p>{{ photo.title }}</p>
+            <p>{{ photo.location }}</p>
+            <!-- Add other metadata if needed -->
+          </div>
+        </div>
+
+      </div>
+
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img">
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.tag-cloud li');
+  const cards = document.querySelectorAll('.photo-card');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cat = btn.getAttribute('data-category');
+
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      cards.forEach(card => {
+        const cardCat = card.getAttribute('data-category');
+        card.style.display = (cat === 'all' || cardCat === cat) ? 'block' : 'none';
+      });
+    });
+  });
+
+  // Optional: initialize with all visible
+  document.querySelector('.tag-cloud li[data-category="all"]')?.click();
+});
+</script>
