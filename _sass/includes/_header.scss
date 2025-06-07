@@ -1,5 +1,6 @@
 header{
     margin-bottom: 60px;
+    width: 100%; // Ensure full-width
     @extend %page-padding;
     nav{
         white-space: nowrap;
@@ -22,7 +23,7 @@ header{
                 content: " "; 
                 position: relative;
                 display: block;
-                width: 85%!important;
+                width: 100%!important;
                 bottom: 0;
                 margin: 0 auto;
                 border: 1px solid !important;
@@ -42,7 +43,7 @@ header{
             
             .btn-nav:hover::after{
                 border-color: $theme-color!important;
-                width: 85%;
+                width: 100%;
                 transition: width 350ms ease-in-out;
                 -webkit-transition: width 350ms ease-in-out; 
                 -moz-transition: width 350ms ease-in-out; 
