@@ -1,10 +1,76 @@
+# - picture:
+#     category: 
+#     title: 
+#     url: /assets/gallery/...
+#     location: 
+#     date: YYYY-MM-DD
+#     device: Canon EOS RP + ...
+#     aperture: F/#
+#     exposure: .S
+#     iso: 
+
+- picture:
+    category: Lovely Animals
+    title: Horses at cades cove (群山、落日和马)
+    url: /assets/gallery/2025-05_Horse.png
+    location: Great Smoky Mountains National Park, TN, US (美国大烟山国家公园)
+    date: 2025-05-31
+    device: Canon EOS RP + RF24-105mm F4-7.1 IS STM
+    aperture: F/7.1
+    exposure: 1/200S
+    iso: 100
+
+- picture:
+    category: Lovely Animals
+    title: Bear hidng in grassland at cades cove (草丛中潜藏的熊)
+    url: /assets/gallery/2025-05_Hiding_Bear.png
+    location: Great Smoky Mountains National Park, TN, US (美国大烟山国家公园)
+    date: 2025-05-31
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/9
+    exposure: 1/800S
+    iso: 3200
+
+- picture:
+    category: Lovely Animals
+    title: Baby bear at cades cove (树上的小熊)
+    url: /assets/gallery/2025-05_Baby_Bear.png
+    location: Great Smoky Mountains National Park, TN, US (美国大烟山国家公园)
+    date: 2025-05-31
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/8
+    exposure: 1/640S
+    iso: 3200
+
+- picture:
+    category: Lovely Animals
+    title: Mom bear at cades cove (路旁的母熊)
+    url: /assets/gallery/2025-05_Mom_Bear.png
+    location: Great Smoky Mountains National Park, TN, US (美国大烟山国家公园)
+    date: 2025-05-31
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/6.3
+    exposure: 1/250S
+    iso: 8000
+
+- picture:
+    category: Lovely Animals
+    title: Wild Bear Walking in Anakeesta (林间漫步的野生熊)
+    url: /assets/gallery/2025-05_Walking_Bear.png
+    location: Gatlinburg, TN, US (美国田纳西州加特林堡)
+    date: 2025-05-29
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/5.6
+    exposure: 1/200S
+    iso: 4000
+
 - picture:
     category: U.S. National Parks
-    title: Synchronized fireflies at litter river trial
+    title: Synchronized fireflies at litter river trail (同步闪烁萤火虫)
     url: /assets/gallery/2025-05_Firefly_CanonEOSRP.png
-    location: Great Smoky Mountains National Park, TN, US
+    location: Great Smoky Mountains National Park, TN, US (美国大烟山国家公园)
     date: 2025-05-29
     device: Canon EOS RP + RF50mm F1.8 STM
-    aperture: f/2.8
-    exposure: 30s (Stack of 20)
+    aperture: F/2.8
+    exposure: 30S (Stack of 20)
     iso: 3200
