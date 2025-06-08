@@ -76,12 +76,16 @@
     .img-wrapper {
       position: relative;
       width: 100%;
-      height: 100%;
+      padding-top: 66.66%; // 3:2 aspect ratio (adjust as needed)
+      overflow: hidden;
+      border-radius: 5px;
 
       img {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
-        display: block;
         object-fit: cover;
         border-radius: 5px;
       }
@@ -90,7 +94,7 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        width: 100%;
+        width:100%;
         padding: 15px;
         box-sizing: border-box;
         color: white;
@@ -98,12 +102,15 @@
         background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0) 100%);
         transition: opacity 0.3s ease;
         pointer-events: auto;
+        border-bottom-left-radius: 5px;    /* <-- added */
+        border-bottom-right-radius: 5px;   /* <-- added */
       }
 
       .info-overlay:hover {
         opacity: 0;
       }
     }
+
   }
 
   // Fixed "Back to Top" Button
@@ -111,14 +118,13 @@
     margin-top: 30px;
     padding-bottom: 30px; // Space between underline and bottom of page
     text-align: center;
-
     .go-top-btn {
       position: relative;
-      font-size: 0.8rem;
+      font-size: 1rem;
       text-decoration: none;
       color: inherit;
       padding-bottom: 8px; // Space between text and underline
-
+      
       &::after {
         content: "";
         position: absolute;
@@ -135,24 +141,51 @@
       }
     }
   }
-
-
-
-  // Fullscreen Lightbox
-  #lightbox {
-    display: none;
+  /* Lightbox backdrop */
+  .lightbox {
+    display: none; /* hide by default */
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.9);
     justify-content: center;
     align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.95); /* or black if you prefer */
+    z-index: 9999;
 
-    img {
-      max-width: 90%;
-      max-height: 90%;
-    }
+    /* Added for fade animation */
+    opacity: 0;
+    transition: opacity 0.3s ease;
   }
+
+  .lightbox.visible {
+    display: flex;  /* show flex layout */
+    opacity: 1;     /* fade in */
+  }
+
+  .lightbox-image {
+    max-height: 90vh;
+    max-width: 100vw;
+    object-fit: contain;
+
+    /* Optional: add subtle scale on hover */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .lightbox-image:hover {
+    transform: scale(1.05);
+  }
+
+  /* Close button */
+  .close-btn {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: rgb(141, 141, 141);
+    font-size: 2.5rem;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
 }

@@ -7,14 +7,12 @@ title: Photography
   <section class="bg"></section>
   <h1 class="title">{{ page.title }}</h1>
 
-  <!-- Category Filter Links -->
   <ul class="tag-cloud">
     {% assign categories = site.data.gallery | map: "picture" | map: "category" | uniq | sort %}
     {% for cat in categories %}
       <a href="#{{ cat | slugify }}">
         <li class="tag" style="background-color: rgb(210, 210, 210)">
-          {{ cat | capitalize }}
-          <span class="meta">
+          {{ cat }}  <span class="meta">
             {{ site.data.gallery | where: "picture.category", cat | size }}
           </span>
         </li>
@@ -22,19 +20,17 @@ title: Photography
     {% endfor %}
   </ul>
 
-  <!-- Grouped Gallery by Category -->
-  <!-- Grouped Gallery by Category -->
   <div class="tag-groups">
     {% for cat in categories %}
     <div class="tag-group">
-      <h4 id="{{ cat | slugify }}" class="title">{{ cat | capitalize }}</h4>
-      <div class="items gallery">
+      <h4 id="{{ cat | slugify }}" class="title">{{ cat }}</h4> <div class="items gallery">
         {% for item in site.data.gallery %}
           {% assign photo = item.picture %}
           {% if photo.category == cat %}
           <div class="photo-card" data-category="{{ photo.category }}">
             <div class="img-wrapper">
-              <img src="{{ photo.url }}" alt="{{ photo.title }}">
+              <img src="{{ photo.url }}" alt="{{ photo.title }}" class="clickable-image">
+
               <div class="info-overlay">
                 <p><strong>{{ photo.title }}</strong></p>
                 {% if photo.date %}
@@ -54,7 +50,6 @@ title: Photography
         {% endfor %}
       </div>
 
-      <!-- Add "Back to Top" button here -->
       <div class="go-top-wrapper">
         <a class="go-top-btn" href="#photography">↑ Back to Top</a>
       </div>
@@ -63,6 +58,47 @@ title: Photography
     {% endfor %}
   </div>
 
-
-
+  <div id="lightbox" class="lightbox">
+    <img class="lightbox-image" src="" alt="Full-size image">
+  </div>
 </div>
+
+
+<script>
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = lightbox.querySelector('.lightbox-image');
+
+  document.querySelectorAll('.clickable-image').forEach(img => {
+    img.addEventListener('click', () => {
+      lightboxImg.src = img.src;
+      lightbox.style.display = 'flex';   // needed to make flex active
+      // Force a reflow to enable transition (optional)
+      void lightbox.offsetWidth;
+      lightbox.classList.add('visible'); // start fade-in
+    });
+  });
+
+  // To fade out, remove visible class, then after transition ends hide display
+  function closeLightbox() {
+    lightbox.classList.remove('visible');  // triggers fade out
+    lightboxImg.src = '';
+  }
+
+  lightboxImg.addEventListener('click', () => {
+    closeLightbox();
+  });
+
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+      closeLightbox();
+    }
+  });
+
+  // Hide display after fade-out transition ends
+  lightbox.addEventListener('transitionend', () => {
+    if (!lightbox.classList.contains('visible')) {
+      lightbox.style.display = 'none';
+    }
+  });
+
+</script>

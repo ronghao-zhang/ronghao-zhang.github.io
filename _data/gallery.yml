@@ -1,11 +1,10 @@
-
 - picture:
-    title: Sunset Over Mountain
+    category: U.S. National Parks
+    title: Synchronized fireflies at litter river trial
     url: /assets/gallery/2025-05_Firefly_CanonEOSRP.png
-    category: na
     location: Great Smoky Mountains National Park, TN, US
-    date: 2025-05-15
-    device: fd
-    aperture: fd
-    exposure: fd
-    iso: 3000
+    date: 2025-05-29
+    device: Canon EOS RP + RF50mm F1.8 STM
+    aperture: f/2.8
+    exposure: 30s (Stack of 20)
+    iso: 3200
