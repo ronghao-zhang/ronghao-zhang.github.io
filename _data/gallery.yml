@@ -13,7 +13,7 @@
     category: Lovely Animals
     title: Horses at cades cove (群山、落日和马)
     url: /assets/gallery/2025-05_Horse.png
-    location: Great Smoky Mountains National Park, TN, US (美国大烟山国家公园)
+    location: Great Smoky Mountains National Park, TN, US (大烟山国家公园)
     date: 2025-05-31
     device: Canon EOS RP + RF24-105mm F4-7.1 IS STM
     aperture: F/7.1
@@ -24,7 +24,7 @@
     category: Lovely Animals
     title: Bear hidng in grassland at cades cove (草丛中潜藏的熊)
     url: /assets/gallery/2025-05_Hiding_Bear.png
-    location: Great Smoky Mountains National Park, TN, US (美国大烟山国家公园)
+    location: Great Smoky Mountains National Park, TN, US (大烟山国家公园)
     date: 2025-05-31
     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
     aperture: F/9
@@ -35,7 +35,7 @@
     category: Lovely Animals
     title: Baby bear at cades cove (树上的小熊)
     url: /assets/gallery/2025-05_Baby_Bear.png
-    location: Great Smoky Mountains National Park, TN, US (美国大烟山国家公园)
+    location: Great Smoky Mountains National Park, TN, US (大烟山国家公园)
     date: 2025-05-31
     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
     aperture: F/8
@@ -46,7 +46,7 @@
     category: Lovely Animals
     title: Mom bear at cades cove (路旁的母熊)
     url: /assets/gallery/2025-05_Mom_Bear.png
-    location: Great Smoky Mountains National Park, TN, US (美国大烟山国家公园)
+    location: Great Smoky Mountains National Park, TN, US (大烟山国家公园)
     date: 2025-05-31
     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
     aperture: F/6.3
@@ -57,7 +57,7 @@
     category: Lovely Animals
     title: Wild Bear Walking in Anakeesta (林间漫步的野生熊)
     url: /assets/gallery/2025-05_Walking_Bear.png
-    location: Gatlinburg, TN, US (美国田纳西州加特林堡)
+    location: Gatlinburg, TN, US (田纳西州加特林堡)
     date: 2025-05-29
     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
     aperture: F/5.6
@@ -68,9 +68,42 @@
     category: U.S. National Parks
     title: Synchronized fireflies at litter river trail (同步闪烁萤火虫)
     url: /assets/gallery/2025-05_Firefly_CanonEOSRP.png
-    location: Great Smoky Mountains National Park, TN, US (美国大烟山国家公园)
+    location: Great Smoky Mountains National Park, TN, US (大烟山国家公园)
     date: 2025-05-29
     device: Canon EOS RP + RF50mm F1.8 STM
     aperture: F/2.8
     exposure: 30S (Stack of 20)
     iso: 3200
+
+- picture:
+    category: Landscape
+    title: Views of Hiawassee & Lake Chatuge (查图格湖)
+    url: /assets/gallery/2024-10-13_Bell_Mountain.png
+    location: Bell Mountain, GA, US (佐治亚州贝尔山)
+    date: 2024-10-13
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/5.6
+    exposure: 1/640S
+    iso: 100
+
+- picture:
+    category: Cin
+    title: Cin at 3 months old (初见Cin)
+    url: /assets/gallery/2024-01-20_Cin.png
+    location: Decatur, GA, US (佐治亚州迪凯特)
+    date: 2024-01-20
+    device: Canon EOS RP + RF24-105mm F4-7.1 IS STM
+    aperture: F/5
+    exposure: 1/125S
+    iso: 400
+
+- picture:
+    category: Birds
+    title: Great blue heron snaring fish (蓝鹭)
+    url: /assets/gallery/2023-11-22_Great_Blue_Heron.png
+    location: Decatur, GA, US (佐治亚州迪凯特)
+    date: 2023-11-22
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/8
+    exposure: 1/400S
+    iso: 12800
