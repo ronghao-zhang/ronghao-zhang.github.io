@@ -72,6 +72,7 @@
     border-radius: 5px;
     overflow: hidden;
     width: 100%;
+    cursor: zoom-in; /* Add this line to change the cursor shape */
 
     .img-wrapper {
       position: relative;
@@ -171,7 +172,7 @@
 
     /* Optional: add subtle scale on hover */
     transition: transform 0.2s ease;
-    cursor: pointer;
+    cursor: zoom-out;
   }
   .lightbox-image:hover {
     transform: scale(1.05);

@@ -80,8 +80,17 @@ title: Photography
 
   // To fade out, remove visible class, then after transition ends hide display
   function closeLightbox() {
-    lightbox.classList.remove('visible');  // triggers fade out
-    lightboxImg.src = '';
+    // Trigger the fade-out transition
+    lightbox.classList.remove('visible');
+
+    // After the transition ends, remove the image source
+    lightbox.addEventListener('transitionend', function onTransitionEnd() {
+      if (!lightbox.classList.contains('visible')) {
+        lightbox.style.display = 'none';  // Hide the lightbox
+        lightboxImg.src = '';  // Remove the image source after the transition
+        lightbox.removeEventListener('transitionend', onTransitionEnd);  // Clean up the event listener
+      }
+    });
   }
 
   lightboxImg.addEventListener('click', () => {
