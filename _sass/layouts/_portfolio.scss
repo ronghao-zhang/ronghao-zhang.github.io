@@ -74,7 +74,7 @@
       ul.exper-list {
         margin-top: 25px;
         margin-left: 3%;
-        border-left: 5px solid $theme-color;
+        border-left: 5px solid $theme-bright;
         list-style-type: none;
         li {
           animation-name: fadein;
@@ -106,7 +106,7 @@
           height: 15px;
           top: 42%;
           left: -10px;
-          background-color: $theme-color;
+          background-color: $theme-bright;
           border-radius: 50%;
         }
       }
@@ -151,7 +151,7 @@
           .progress-bar {
             position: absolute;
             height: 18px;
-            background-color: $theme-color;
+            background-color: $theme-bright;
           }
           .progress-value {
             position: absolute;
@@ -177,7 +177,7 @@
         li.interest::before {
           content: "•";
           font-size: 200%;
-          color: $theme-color;
+          color: $theme-bright;
           padding-right: 5px;
           vertical-align: text-top;
         }
