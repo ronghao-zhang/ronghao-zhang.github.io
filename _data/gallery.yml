@@ -87,6 +87,28 @@
     iso: 100
 
 - picture:
+    category: Lovely Animals
+    title: Rough green snake, Opheodrys aestivus (粗绿蛇)
+    url: /assets/gallery/2024-05-11_Rough_Green_Snake.png
+    location: The East Palisades Trail, Chattahoochee National Park Conservancy, GA, US
+    date: 2024-05-11
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/9
+    exposure: 1/800S
+    iso: 8000
+
+- picture:
+    category: Lovely Animals
+    title: Barbary Sheep, Ammotragus lervia (巴巴里羊)
+    url: /assets/gallery/2024-08-17_Barbary_Sheep.png
+    location: Wild Animal Safari, Pine Mountain, GA, US
+    date: 2024-08-17
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/8
+    exposure: 1/640S
+    iso: 2500
+
+- picture:
     category: Cin
     title: Cin at 3 months old (初见Cin)
     url: /assets/gallery/2024-01-20_Cin.png
