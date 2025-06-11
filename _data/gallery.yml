@@ -77,6 +77,28 @@
 
 - picture:
     category: Landscape
+    title: Sunset, Tree, and Gull (老树昏鸦)
+    url: /assets/gallery/2024-11_Crystal_River_Tree.png
+    location: Kings Bay, Crystal River, FL, US (佛罗里达州水晶河)
+    date: 2024-11-28
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/8
+    exposure: 1/500S
+    iso: 640
+
+- picture:
+    category: Lovely Animals
+    title: Dolphin dorsal fins (海豚背鳍)
+    url: /assets/gallery/2024-11_Tempa_Dolphins.png
+    location: Hillsborough Bay, Tampa, FL, US (佛罗里达州坦帕湾)
+    date: 2024-11-27
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/10
+    exposure: 1/800S
+    iso: 200
+
+- picture:
+    category: Landscape
     title: Views of Hiawassee & Lake Chatuge (查图格湖)
     url: /assets/gallery/2024-10-13_Bell_Mountain.png
     location: Bell Mountain, GA, US (佐治亚州贝尔山)
@@ -85,6 +107,50 @@
     aperture: F/5.6
     exposure: 1/640S
     iso: 100
+
+- picture:
+    category: Birds
+    title: Juvenile little blue heron foraging in marshes (小蓝鹭幼鸟)
+    url: /assets/gallery/2024-02_Little_Blue_Heron.png
+    location: Wassaw National Wildlife Refuge, Savannah, GA, US
+    date: 2024-02-16
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/8
+    exposure: 1/800S
+    iso: 800
+
+- picture:
+    category: Birds
+    title: Northen Mockingbird, Mimus polyglottos (北方嘲鸫)
+    url: /assets/gallery/2024-02_Northern_Mockingbird.png
+    location: Wassaw National Wildlife Refuge, Savannah, GA, US
+    date: 2024-02-16
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/8
+    exposure: 1/800S
+    iso: 400
+
+- picture:
+    category: Lovely Animals
+    title: Adult Aligator (成年短吻鳄)
+    url: /assets/gallery/2024-02_Adult_Gator.png
+    location: Wassaw National Wildlife Refuge, Savannah, GA, US
+    date: 2024-02-16
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/8
+    exposure: 1/800S
+    iso: 2500
+
+- picture:
+    category: Lovely Animals
+    title: Juvenile Aligator (幼年短吻鳄)
+    url: /assets/gallery/2024-02_Young_Gator.png
+    location: Wassaw National Wildlife Refuge, Savannah, GA, US
+    date: 2024-02-16
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/9
+    exposure: 1/800S
+    iso: 2000
 
 - picture:
     category: Lovely Animals
@@ -121,7 +187,7 @@
 
 - picture:
     category: Birds
-    title: Great blue heron snaring fish (蓝鹭)
+    title: Great blue heron snaring fish (大蓝鹭)
     url: /assets/gallery/2023-11-22_Great_Blue_Heron.png
     location: Decatur, GA, US (佐治亚州迪凯特)
     date: 2023-11-22
