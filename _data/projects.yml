@@ -10,19 +10,24 @@
     summary: Garvin Lab & Gonzalez-Vicente Lab, Case Western Reserve University School of Medicine
     description: Sodium Glucose Transporter 5 (SGLT); Proximal Tubule; Oxidative Stress; Aldosterone; Aldosterone Sensitive Distal Nephron (ASDN); Epithelial Sodium Channel (ENaC); Salt Sensitive Hypertension.
     contents:
-        - title: Scientific Background
-          description: <p>Since the 1970s, increased fructose consumption in the U.S., primarily due to the widespread use of high-fructose corn syrup as a sweetener, has been linked to the rise of salt-sensitive hypertension. Understanding the mechanism of fructose-induced salt-sensitive hypertension is pivotal for the development of therapeutics that benefit patients with hypertension.</p>
-        - title: Roles
-          description: <p>With my expertise in biology bench skills and bioinformatics, I performed both animal studies and transcriptomic analysis on Next Generation RNA sequencing data to unveil how fructose + high salt diets increase systolic blood pressure in rats.</p>
-        - title: Findings
-          description: <p>My research identifies the expression pattern of the main fructose reabsorption transporter, SGLT5, in the proximal tubule (PT) of the nephron and its role in promoting PT oxidative stress, which likely contributes to salt-sensitive hypertension. Additionally, my findings suggest that salt-sensitive hypertension appears to result from fructose-induced increases in sodium reabsorption occurring at the aldosterone-sensitive distal nephron.</p> 
-        - title: Significance
-          description: <p>My contribution helps deepen the understanding of how different nephron segments are involved in the development of hypertension and provides insights into new therapeutics for elevated blood pressure, which will benefit millions of hypertensive patients.</p>
-        - title: Acknowledgments
-          description: I would like to express my special thanks of gratitude to Dr. Garvin and Dr. Gonzalez-Vicente. Without their guidance and encouragement, I would not be able to conduct this project. I also thank all colleagues and collaborators for their support in this study.  
-        - title: Reference
-          description: <ol><u><em>Zhang R</em></u>, Jadhav DA, Kim N, Kramer B, Gonzalez-Vicente A; Kidney Precision Medicine Project. Profiling Cell Heterogeneity and Fructose Transporter Expression in the Rat Nephron by Integrating Single-Cell and Microdissected Tubule Segment Transcriptomes. International Journal of Molecular Sciences. 2024.</ol>
-                       <br></br>
-                       <ol>Forester BR, <u><em>Zhang R</em></u>, Schuhler B, Brostek A, Gonzalez-Vicente A, Garvin JL. Knocking Out Sodium Glucose-Linked Transporter 5 Prevents Fructose-Induced Renal Oxidative Stress and Salt-Sensitive Hypertension. Hypertension. 2024.</ol>
-                       <br></br>
-                       <ol><u><em>Zhang R</em></u>, Shi S, Jadhav DA, Kim N, Brostek A, Forester BR, Shukla R, Qu C, Kramer B, Garvin JL, Kleyman TR, Gonzalez-Vicente A. Abnormal activation of the mineralocorticoid receptor in the aldosterone-sensitive distal nephron contributes to fructose-induced salt-sensitive hypertension. BioRxiv. 2024.</ol>
+          - title: Scientific Background
+            description: "Since the 1970s, increased fructose consumption in the U.S., primarily due to the widespread use of high-fructose corn syrup as a sweetener, has been linked to the rise of salt-sensitive hypertension. Understanding the mechanism of fructose-induced salt-sensitive hypertension is pivotal for the development of therapeutics that benefit patients with hypertension."
+
+          - title: Roles
+            description: "With my expertise in biology bench skills and bioinformatics, I performed both animal studies and transcriptomic analysis on Next Generation RNA sequencing data to unveil how fructose + high salt diets increase systolic blood pressure in rats."
+
+          - title: Findings
+            description: "My research identifies the expression pattern of the main fructose reabsorption transporter, **SGLT5**, in the proximal tubule (PT) of the nephron and its role in promoting PT oxidative stress, which likely contributes to salt-sensitive hypertension. Additionally, my findings suggest that salt-sensitive hypertension appears to result from fructose-induced increases in sodium reabsorption occurring at the aldosterone-sensitive distal nephron."
+
+          - title: Significance
+            description: "My contribution helps deepen the understanding of how different nephron segments are involved in the development of hypertension and provides insights into new therapeutics for elevated blood pressure, which will benefit millions of hypertensive patients."
+
+          - title: Acknowledgments
+            description: "I would like to express my special thanks of gratitude to Dr. Garvin and Dr. Gonzalez-Vicente. Without their guidance and encouragement, I would not be able to conduct this project. I also thank all colleagues and collaborators for their support in this study."
+          
+          - title: Reference
+            description: <li><u>Zhang R</u>, Jadhav DA, Kim N, Kramer B, Gonzalez-Vicente A; Kidney Precision Medicine Project. Profiling Cell Heterogeneity and Fructose Transporter Expression in the Rat Nephron by Integrating Single-Cell and Microdissected Tubule Segment Transcriptomes. International Journal of Molecular Sciences. 2024.</li>
+                         
+                          <li>Forester BR, <u>Zhang R</u>, Schuhler B, Brostek A, Gonzalez-Vicente A, Garvin JL. Knocking Out Sodium Glucose-Linked Transporter 5 Prevents Fructose-Induced Renal Oxidative Stress and Salt-Sensitive Hypertension. Hypertension. 2024.</li>
+                         
+                           <li><u>Zhang R</u>, Shi S, Jadhav DA, Kim N, Brostek A, Forester BR, Shukla R, Qu C, Kramer B, Garvin JL, Kleyman TR, Gonzalez-Vicente A. Abnormal activation of the mineralocorticoid receptor in the aldosterone-sensitive distal nephron contributes to fructose-induced salt-sensitive hypertension. BioRxiv. 2024.</li>
