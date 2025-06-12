@@ -18,7 +18,7 @@
       <div class="sub-content">
         <div class="title">{{ content.title }}</div>
         {% if content.image %}
-          {% if content.image.path contains '://' -%}Add commentMore actions
+          {% if content.image.path contains '://' -%}
           <img src="{{ content.image.path }}" alt="{{ project.image.alt }}">
           {%- else -%}
           <img src="{{ content.image.path | prepend: '/assets/project/' | relative_url }}" alt="{{ project.image.alt }}">
