@@ -3,6 +3,7 @@
 .sass-cache
 _site
 
+vendor/*
 .jekyll-cache/
 .DS_Store
 assets/pdfs/.DS_Store
