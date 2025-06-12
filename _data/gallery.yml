@@ -195,3 +195,14 @@
     aperture: F/8
     exposure: 1/400S
     iso: 12800
+
+- picture:
+    category: Birds
+    title: Brown Thrasher, Toxostoma rufum (褐矢嘲鸫)
+    url: /assets/gallery/2023-11_Brown_Thrasher.png
+    location: Decatur, GA, US (佐治亚州迪凯特)
+    date: 2023-11-28
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    aperture: F/8
+    exposure: 1/800S
+    iso: 500
