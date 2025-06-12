@@ -1,3 +1,5 @@
+@use "../base/variable" as vars;
+
 #photography {
   @extend %page-padding;
 
@@ -9,7 +11,7 @@
     top: 105px;
     left: 0%;
     height: 95px;
-    background-color: $theme-dark;
+    background-color: vars.$theme-dark;
   }
 
   h1.title {
@@ -22,7 +24,7 @@
     margin: 70px 0 30px;
 
     li {
-      background-color: $theme-color;
+      background-color: vars.$theme-color;
       display: inline-block;
       margin-bottom: 10px;
       margin-right: 3px;
@@ -40,7 +42,7 @@
       }
 
       &:hover {
-        background-color: $theme-dark2 !important;
+        background-color: vars.$theme-dark2 !important;
       }
     }
   }
@@ -55,7 +57,7 @@
         font-size: 1.25rem;
         font-weight: bold;
         padding-left: 6%;
-        color: $text;
+        color: vars.$text;
       }
 
       .gallery {
@@ -135,7 +137,7 @@
         left: 50%;
         transform: translateX(-50%);
         width: 0;
-        border-bottom: 2px solid $theme-color;
+        border-bottom: 2px solid vars.$theme-color;
         transition: width 0.3s ease;
       }
 

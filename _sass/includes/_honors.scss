@@ -1,3 +1,5 @@
+@use "../base/variable" as vars;
+
 #honors {
     position: relative;
     overflow: hidden;
@@ -8,7 +10,7 @@
       p.title {
         padding-left: 10px;
         padding-bottom: 10px;
-        color: $theme-dark;
+        color: vars.$theme-dark;
         font-size: 25px;
         font-weight: 600;
       }
@@ -37,7 +39,7 @@
         color: rgba(0, 0, 0, 0.65);
       }
       em.organization {
-        color: $theme-color;
+        color: vars.$theme-color;
       }
     }
     .bg {

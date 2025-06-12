@@ -1,3 +1,5 @@
+@use "../base/variable" as vars;
+
 header{
     margin-bottom: 60px;
     width: 100%; // Ensure full-width
@@ -29,7 +31,7 @@ header{
                 border: 1px solid !important;
             }
             .current.btn-nav:hover{
-                color : $theme-color;
+                color : vars.$theme-color;
             }
             .btn-nav::after{
                 content: " "; 
@@ -42,7 +44,7 @@ header{
             }
             
             .btn-nav:hover::after{
-                border-color: $theme-color!important;
+                border-color: vars.$theme-color!important;
                 width: 100%;
                 transition: width 350ms ease-in-out;
                 -webkit-transition: width 350ms ease-in-out; 
