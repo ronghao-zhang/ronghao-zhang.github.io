@@ -1,11 +1,10 @@
 \documentclass[letterpaper,11pt]{article}
 
-\usepackage{latexsym}
+% Packages
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
@@ -13,239 +12,333 @@
 \usepackage{tabularx}
 \usepackage{fontawesome5}
 \usepackage{multicol}
-\setlength{\multicolsep}{-3.0pt}
+\usepackage{latexsym}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{enumitem}
+
+\setlength{\multicolsep}{-3pt}
 \setlength{\columnsep}{-1pt}
+\setlength{\tabcolsep}{0in}
+
 \input{glyphtounicode}
 
+
+\definecolor{GlacierBlue}{RGB}{70,150,180}
+% \definecolor{SpringWater}{RGB}{93,190,138}
+% \definecolor{StarNight}{RGB}{82,82,136}
+
+% Page style
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
+\fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Adjust margins
+% Margins
 \addtolength{\oddsidemargin}{-0.6in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
+\addtolength{\topmargin}{-0.7in}
 \addtolength{\textheight}{1.4in}
 
+% URL style
 \urlstyle{same}
 
+% Paragraph and alignment settings
 \raggedbottom
 \raggedright
-\setlength{\tabcolsep}{0in}
 
-% Sections formatting
+% Section formatting
 \titleformat{\section}{
-	\vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+    \vspace{-5pt}\color{GlacierBlue}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{GlacierBlue}\titlerule\vspace{-5pt}]
 
-% Ensure that generate pdf is machine readable/ATS parsable
+% PDF accessibility
 \pdfgentounicode=1
 
+\setlist[enumerate,1]{%
+    label=\color{Gray}[ \arabic* ],  % Gray brackets and number
+    labelwidth=3em,   % Wide enough for [ 100 ]
+    labelsep=1em,     % Space between label and text
+    labelindent=0pt,  % Align label to margin
+    leftmargin=4em,   % labelwidth + labelsep
+    align=left,
+    itemsep=0pt
+}
+
 % Custom commands
-\newcommand{\resumeItem}[1]{
-	\item\small{
-		{#1 \vspace{0pt}}
-	}
+%------------------------- Heading / Section Macros -------------------------
+\newcommand{\resumeSubSection}[1]{%
+  {\noindent\color{GlacierBlue}\scshape\large #1 \dotfill} \vspace{-6pt}
 }
 
-\newcommand{\classesList}[4]{
-	\item\small{
-		{#1 #2 #3 #4 \vspace{-2pt}}
-	}
+%------------------------- Item List Macros -------------------------
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{%
+    \begin{itemize}[leftmargin=12pt, label={\color{GlacierBlue}$\circ$}, itemsep=1pt, topsep=1pt]
+}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumeItem}[1]{%
+    \item \footnotesize{#1\vspace{0pt}}
+}
+\newcommand{\resumeSubItem}[1]{%
+    \resumeItem{#1}\vspace{-4pt}
 }
 
-\newcommand{\resumeSubheading}[4]{
-	\vspace{-2pt}\item
-	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-		\textbf{#1} & \textbf{\small #2} \\
-		\textit{\small#3} & {\small #4} \\
-	\end{tabular*}\vspace{-4pt}
+%------------------------- Education, Work, Teaching Subheadings -------------------------
+\newcommand{\resumeEduSubheading}[3]{%
+    \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textbf{\small #2 {\color{GlacierBlue} \textbullet} #3} \\
+    \end{tabular*}\vspace{-4pt}
 }
 
-\newcommand{\resumeContentHeading}[2]{
-	\item
-	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-		{\small#1} & {\small #2} \\
-	\end{tabular*}\vspace{-4pt}
+\newcommand{\resumeWorkSubheading}[4]{%
+    \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}, #2 & \textbf{\small #3 {\color{GlacierBlue} \textbullet} #4} \\
+    \end{tabular*}\vspace{-4pt}
 }
 
-\newcommand{\resumeProjectHeading}[2]{
-	\item
-	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-		\small#1 & \textbf{\small #2}\\
-	\end{tabular*}\vspace{-4pt}
+\newcommand{\resumeTeachSubheading}[4]{%
+    \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}, #2 & \textbf{\small #3 {\color{GlacierBlue} \textbullet} #4} \\
+    \end{tabular*}\vspace{-4pt}
 }
 
-\newcommand{\resumeResearchHeading}[2]{
-	\vspace{-2pt}\item
-	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-		\textbf{#1} & \textbf{\small #2} \\
-	\end{tabular*}\vspace{-4pt}
+\newcommand{\resumeResearchAdvisorSubheading}[2]{%
+    \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}, #2 \\
+    \end{tabular*}\vspace{-4pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+%------------------------- Mentorship List Macros -------------------------
+\newcommand{\resumeMenteeItemListStart}{%
+    \begin{itemize}[leftmargin=0pt, label={}]
+    \vspace{-5pt}
+}
+\newcommand{\resumeMenteeItemListEnd}{%
+    \end{itemize}\vspace{-5pt}
+}
 
-\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeMenteeItem}[3]{%
+    \item
+    {\color{GlacierBlue}$\circ$} 
+    \makebox[\dimexpr\linewidth-9pt\relax][l]{%
+        {#1} \hfill {\small #2 {\color{GlacierBlue} \textbullet} #3}%
+    }\vspace{0pt}
+}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
-	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeMenteeProject}[1]{%
+    { \textit{#1} \par}\vspace{-2pt}
+}
 
-%----------Documents Start Here----------
+\newcommand{\resumeMenteeDescription}[1]{%
+    { {#1} \par}\vspace{-2pt}
+}
+
+%------------------------- Publications -------------------------
+\newcommand{\resumePubListStart}{%
+    \begin{enumerate}
+}
+\newcommand{\resumePubListEnd}{%
+    \end{enumerate}
+}
+
+\newcommand{\resumePubItem}[2]{%
+    \item {#1 {\color{GlacierBlue}#2}}
+}
+
+%------------------------- Engagement -------------------------
+\newcommand{\resumeEngagementItemListStart}{%
+    \begin{itemize}[leftmargin=0pt, label={}]\vspace{0pt}
+}
+\newcommand{\resumeEngagementItemListEnd}{%
+    \end{itemize}\vspace{6pt}
+}
+
+\newcommand{\resumeEngagementItem}[3]{%
+    \item
+    {\color{GlacierBlue}$\circ$} 
+    \begin{tabular*}{\dimexpr\linewidth-9pt\relax}[t]{@{\extracolsep{\fill}}l r}
+        #1 & {\small #2} \\
+        \multicolumn{2}{@{}l}{at \textit{#3}}
+    \end{tabular*}\vspace{-8pt}
+}
+
+%------------------------- Awards -------------------------
+\newcommand{\resumeAwardItemListStart}{%
+    \begin{itemize}[leftmargin=0pt, label={}]\vspace{0pt}
+}
+\newcommand{\resumeAwardItemListEnd}{%
+    \end{itemize}\vspace{6pt}
+}
+
+\newcommand{\resumeAwardItem}[3]{%
+    \item
+    {\color{GlacierBlue}$\circ$} 
+    \begin{tabular*}{\dimexpr\linewidth-9pt\relax}[t]{@{\extracolsep{\fill}}l r}
+       { {#1} {\small\color{GlacierBlue} \textit{by} }{\small \textit{#2}}} & {\small#3}
+    \end{tabular*}\vspace{-8pt}
+}
+
+
+%---------- Document Starts ----------
 \begin{document}
-	
-	% heading section
-	\begin{center}
-		{\Huge \scshape Ronghao Zhang} 
-		\\ \vspace{5pt}
-		Updated 2024-08-19
-		\\ \vspace{5pt}
-		\small \raisebox{-0.1\height} ~ 
-		\href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\          \underline{ronghao.zhang.academic@gmail.com}} ~ 
-		\href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\     \underline{linkedin.com/in/ronghao-zhang-a81b05234}}  ~
-		\href{https://ronghao-zhang.github.io/}{\raisebox{-0.2\height}\faGithub\ \underline{https://ronghao-zhang.github.io/}}
-		\vspace{1pt}
-	\end{center}
-	
-	%----------EDUCATION-----------
-	\section{EDUCATION}
+
+% Heading
+\begin{center}
+    {\Huge \scshape \color{GlacierBlue} Ronghao Zhang} \\
+    \vspace{5pt}
+    {\color{gray} Whitehead Biomedical Research Building, 615 Micheal Street, Atlanta, GA 30332} \\
+    \vspace{0pt}
+    \small
+    \href{mailto:ronghao.zhang.academic@gmail.com}{{\color{gray}\faPaperPlane} \color{GlacierBlue} ronghao.zhang.academic@gmail.com} ~
+    \href{https://linkedin.com/in/ronghao-zhang-a81b05234}{{\color{gray}\faLinkedin} \color{GlacierBlue} linkedin.com/in/ronghao-zhang-a81b05234} ~
+    \href{https://ronghao-zhang.github.io/}{{\color{gray}\faGithub} \color{GlacierBlue} ronghao-zhang.github.io}
+    \vspace{1pt}
+\end{center}
+
+% Education
+\section{EDUCATION}
 	\resumeSubHeadingListStart
-	\resumeSubheading
-	{Georgia Tech \& Emory University}{August 2023 -- May 2028}
-	{Graduate/Professional}{Atlanta, GA}
-	\resumeItemListStart
-	\resumeItem{Ph.D. student in Biomedical Engineering, Wallace H. Coulter Department of Biomedical Engineering}
-	\resumeItem{Graduate research assistant in the Emanuel Lab, Department of Cell Biology, Emory University School of Medicine}
-	\resumeItemListEnd
-	\resumeSubheading
-	{Case Western Reserve University}{August 2019 -- May 2023}
-	{Undergraduate}{Cleveland, OH}
-	\resumeItemListStart
-	\resumeItem{\it{Summa Cum Laude}, Bachelor of Science in Systems Biology, Bachelor of Arts in Computer Science}
-	\resumeItem{Undergraduate research assistant in Garvin \& Gonzalez-Vicente Lab, Department of Physiology and Biophysics, Case Western Reserve University School of Medicine.}
-	\resumeItemListEnd
+		\resumeEduSubheading
+			{Georgia Institute of Technology \& Emory University}{Atlanta, GA}{2023 -- 2028 (Expected)}
+			\resumeItemListStart
+				\resumeItem{Ph.D. student in Biomedical Engineering, Wallace H. Coulter Department of Biomedical Engineering}
+				\resumeItem{\textit{(Tentitive) Research Focus:} Cortical processing of touch signals and contribution to tactile behavior in health and disease}
+				\resumeItem{\textit{Adviser:} Dr. Alan Emanuel, Department of Cell Biology, Emory University School of Medicine}
+			\resumeItemListEnd
+
+		\resumeEduSubheading
+			{Case Western Reserve University}{Cleveland, OH}{2019 -- 2023}
+			\resumeItemListStart
+				\resumeItem{Bachelor of Science in Systems Biology, Bachelor of Arts in Computer Science, \textit{Summa Cum Laude}}
+			\resumeItemListEnd
 	\resumeSubHeadingListEnd
-	
-	%-----------RESEARCH INTEREST----------
-	\section{RESEARCH INTEREST}
-	\resumeSubHeadingListStart
-	\resumeResearchHeading{Systems and Computational Neuroscience}{}
-	\resumeItemListStart
-	\resumeItem{Neural basis of sensory signal processing and perception}
-	\resumeItem{Mechanism of sensory dysfunction and potential therapeutics in neurological diseases}
-	\resumeItem{Brain Computer Interface and neuroprosthetics for rehabilitation}
-	\resumeItemListEnd
-	\resumeSubHeadingListEnd      
-	
-    %-----------Publication----------
-	\section{PUBLICATIONS}
-	\begin{itemize}[itemsep=-2pt, parsep=5pt, leftmargin=0pt]
-		\item[] [Pre-Print] \underline{\textbf{Zhang, R.}}, Shi, S., Jadhav, D.A., Kim, N., Brostek, A., Forester, B.R., Shukla, R., Qu, C., Kramer B., Garvin, J.L., Kleyman, T. R., Gonzalez-Vicente, A. (2024) Abnormal activation of the mineralocorticoid receptor in the aldosterone-sensitive distal nephron contributes to fructose-induced salt-sensitive hypertension. \textit{bioRxiv}, \url{https://doi.org/10.1101/2024.08.19.608663}.
-		\item[] Forester, B.R., \underline{\textbf{Zhang, R.}}, Schuhler, B., Brostek, A., Gonzalez-Vicente, A., Garvin, J.L. (2024) Knocking Out Sodium Glucose-Linked Transporter 5 Prevents Fructose-Induced Renal Oxidative Stress and Salt-Sensitive Hypertension. \textit{Hypertension}, \textit{81}(6), 1296-1307. \url{https://doi.org/10.1161/HYPERTENSIONAHA.123.22535}.
-		\item[] \underline{\textbf{Zhang, R.}}, Jadhav, D.A., Kim, N., Kramer, B., Gonzalez-Vicente, A., on behalf of the Kidney Precision Medicine Project. (2024) Profiling Cell Heterogeneity and Fructose Transporter Expression in the Rat Nephron by Integrating Single-Cell and Microdissected Tubule Segment Transcriptomes. \textit{Int. J. Mol. Sci.}, \textit{25}(5), 3071. \url{https://doi.org/10.3390/ijms25053071}.
-		\item[] Brostek, A., Hong, N. J., \underline{\textbf{Zhang, R.}}, Forester, B. R., Barmore, L. E., Kaydo, L., Kluge, N., Smith, C., Garvin, J. L., and Gonzalez-Vicente, A.(2022) Independent Effects of Sex and Stress on Fructose-Induced Salt-Sensitive Hypertension. \textit{Physiological Reports}, \textit{10}(19), e15489. \url{https://doi.org/10.14814/phy2.15489}. 
-	\end{itemize}
-	%----------Presentation----------
-	\section{PRESENTATIONS}
-	\vspace{0pt}
-	\textbf{April 2023} | Poster presentation {\textit{Addition of fructose to a high-salt diet increases the expression of aldosterone- response genes in the kidney}}  at American Physiology Summit, Long Beach, CA, U.S.
 
-	\textbf{April 2023} | Poster presentation {\textit{Single-cell transcriptional phenotypes linked to anatomical localization of fructose transporters in rat proximal tubule segments}}  at American Physiology Summit, Long Beach, CA, U.S.
-
-	\textbf{April 2023} | Oral Presentation {\textit{Fructose-induced aldosterone response in distal tubules}} at Cleveland Kidney Center Renal Chalk Talks, Cleveland, OH, U.S. 
-	
-	%-----------CERTIFICATES-----------
-	\section{AWARDS \& HONORS}
-	\vspace{-5pt}
+% WORK EXPERIENCE
+\section{WORK EXPERIENCE}
 	\resumeSubHeadingListStart
-	
-	\resumeProjectHeading
-	{\textbf{Dean's High Honor} $|$ \emph{Case Western Reserve University}}{Latest Award: June 2022}
-	\resumeItemListStart
-	\resumeItem{Awarded for the following semesters: Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021, and Spring 2022.}
-	\resumeItemListEnd
-	\vspace{-20pt}
-	
-	\resumeProjectHeading
-	{\textbf{Outstanding Junior Award} $|$ \emph{Case Western Reserve University}}{April 2022}
-	\vspace{-30pt}
-	
-	\resumeProjectHeading
-	{\textbf{Phi Beta Kappa Prize} $|$ \emph{Case Western Reserve University}}{September 2021}
-	\vspace{-30pt}
-	
-	\resumeProjectHeading
-	{\textbf{Heartsaver CPR \& AED Certificate} $|$ \emph{American Heart Association}}{January 2020}
+		\resumeWorkSubheading
+			{Emory University School of Medicine}{Research Assistant}{Atlanta, GA}{2023 -- Present}
+			\resumeItemListStart
+				\resumeItem{\textit{Adviser}: Dr. Alan Emanuel, Department of Cell Biology}
+			\resumeItemListEnd
+
+		\resumeWorkSubheading
+			{University of Chicago}{Research Assistant}{Cleveland, OH}{Summer, 2022}
+			\resumeItemListStart
+				\resumeItem{\textit{Adviser}: Dr. Sliman Bensmaia, Department of Organismal Biology and Anatomy}
+			\resumeItemListEnd
+
+		\resumeWorkSubheading
+			{Case Western Reserve University School of Medicine}{Research Assistant}{Cleveland, OH}{2019 -- 2023}
+			\resumeItemListStart
+				\resumeItem{\textit{Adviser}: Drs. Jeffrey Garvin \& Agustin Gonzalez-Vincente, Department of Physiology and Biophysics}
+			\resumeItemListEnd
 	\resumeSubHeadingListEnd
-	\vspace{-15pt}
 
-	%----------Presentation----------
-	\section{MENTORING EXPERIENCE}
-	\resumeSubHeadingListStart
-	\vspace{-5px}
-	\resumeProjectHeading{\textbf{Mentor, Petit Scholar Research Program}}{January 2024 - Current}
-	\resumeItemListStart
-	\resumeItem{Supervised Undergraduate scholar, Ruorong Qi, for her independent study in tactile abberations under diseases condions.}
-	\resumeItemListEnd
-	\vspace{-30px}
+% TEACHING & ADVISING EXPERIENCE
+\section{TEACHING \& ADVISING EXPERIENCE}
+	\resumeSubSection{Research Advising and Mentoring}
+		\resumeSubHeadingListStart
+			\resumeResearchAdvisorSubheading
+				{Undergraduate Research Projects}{Research Mentor}
+				\vspace{-12pt}
+				\resumeMenteeItemListStart
+					\resumeMenteeItem
+						{Ruorong Qi}{Emory University}{2024 -- Present}
+						\resumeMenteeProject{Progression of abnormal signaling in primary somatosensory cortex of MitoPark mice.}
+						\resumeMenteeDescription{Ruorong was selected as a Petit Lanier scholar in 2024 for this work and was funded by the Sartain Lanier Foundation in 2025 to continue this research.}
+				\resumeMenteeItemListEnd
+		\resumeSubHeadingListEnd
 
-	\resumeProjectHeading{\textbf{Undergraduate Teaching Assistance}}{August 2021 - May 2022}
-	\resumeItemListStart
-	\resumeItem{\textbf{BIOL373} {Introduction to Neurobiology} (\textit{Fall 2022})}
-	\resumeItem{\textbf{BIOL300} {Dynamics of Biological Systems: A Quantitative Introduction to Biology} (\textit{Spring 2022})}
-	\resumeItem{\textbf{ENGR131} {Elementary Computer Programming - MATLAB} (\textit{Fall 2021})}
-	\resumeItem{\textbf{BIOL214} {Genes, Evolution and Ecology} (\textit{Fall 2021})}
-	\resumeItemListEnd
-	\vspace{-5px}
-	\resumeSubHeadingListEnd 
-	
-	%-----------CERTIFICATES-----------
-	\section{AWARDS \& HONORS}
-	\vspace{-5pt}
-	\resumeSubHeadingListStart
-	
-	\resumeProjectHeading
-	{\textbf{Dean's High Honor} $|$ \emph{Case Western Reserve University}}{Latest Award: June 2022}
-	\resumeItemListStart
-	\resumeItem{Awarded for the following semesters: Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021, and Spring 2022.}
-	\resumeItemListEnd
-	\vspace{-20pt}
-	
-	\resumeProjectHeading
-	{\textbf{Outstanding Junior Award} $|$ \emph{Case Western Reserve University}}{April 2022}
-	\vspace{-30pt}
-	
-	\resumeProjectHeading
-	{\textbf{Certificate of Completion} $|$ \emph{Coursera -- Command Line Tools for Genomic Data Science}}{March 2022}
-	\vspace{-30pt}
-	
-	\resumeProjectHeading
-	{\textbf{Phi Beta Kappa Prize} $|$ \emph{Case Western Reserve University}}{September 2021}
-	\vspace{-30pt}
-	
-	\resumeProjectHeading
-	{\textbf{Heartsaver CPR \& AED Certificate} $|$ \emph{American Heart Association}}{January 2020}
-	\resumeSubHeadingListEnd
-	\vspace{-15pt}
-	
-	%-----------PROGRAMMING SKILLS-----------
-	\section{TECHNICAL SKILLS}
-	%\resumeSubHeadingListStart
-	%\begin{multicols}{2}
-		\begin{itemize}[itemsep=-2pt, parsep=5pt]
-			\item \textbf{Programming Languages}: \texttt{R}, \texttt{MatLab}, Unix Command Lines, \texttt{Java}, MySQL
-			\item \textbf{Tools}: \texttt{LaTex}, Unity, GitHub \& Git
-			\item \textbf{Operating Systems}: Windows, MacOS, Linux with Ubuntu
-			\item \textbf{Others}: surgeries on rodents, quantitative biological experiments, mRNA purification
-		\end{itemize}
-	%\end{multicols}
-	\vspace*{2.0\multicolsep}
-	%\resumeSubHeadingListEnd
+	\resumeSubSection{Teaching}
+		\resumeSubHeadingListStart
+			\resumeTeachSubheading
+				{Biomed. Data Visual. (BMED8813)}{Teaching Assistant}{Georgia Institute of Technology}{Spring, 2025}
+				\vspace{-12pt}
+			\resumeTeachSubheading
+				{Optical Microscopy (BMED6785)}{Teaching Assistant}{Georgia Institute of Technology}{Fall, 2024}
+				\vspace{-12pt}
+			\resumeTeachSubheading
+				{Intro. to Neurobiology (BIOL373)}{Teaching Assistant}{Case Western Reserve University}{Fall, 2022}
+				\vspace{-12pt}
+			\resumeTeachSubheading
+				{Dynamics of Bio. Systems (BIOL300)}{Teaching Assistant}{Case Western Reserve University}{Spring, 2022}
+				\vspace{-12pt}
+			\resumeTeachSubheading
+				{Elementary Programming (ENGR131)}{Teaching Assistant}{Case Western Reserve University}{Fall, 2021}
+				\vspace{-12pt}
+			\resumeTeachSubheading
+				{Genes, Evolution \& Ecology (BIOL214)}{Teaching Assistant}{Case Western Reserve University}{Fall, 2021}
+				\vspace{-12pt}
+		\resumeSubHeadingListEnd
 
-	
+% PUBLICATIONS
+\section{PUBLICATIONS}
+	\resumeSubSection{Preprints}
+		\resumePubListStart
+			\resumePubItem{\underline{\textbf{Zhang, R.}}, Shi, S., Jadhav, D.A., Kim, N., Brostek, A., Forester, B.R., Shukla, R., Qu, C., Kramer B., Garvin, J.L., Kleyman, T. R., Gonzalez-Vicente, A. (2024) Abnormal activation of the mineralocorticoid receptor in the aldosterone-sensitive distal nephron contributes to fructose-induced salt-sensitive hypertension. \textit{bioRxiv}}{\url{https://doi.org/10.1101/2024.08.19.608663}}
+		\resumePubListEnd
+	\resumeSubSection{Research Articles}
+		\resumePubListStart
+			\resumePubItem{Forester, B.R., \underline{\textbf{Zhang, R.}}, Schuhler, B., Brostek, A., Gonzalez-Vicente, A., Garvin, J.L. (2024) Knocking out Sodium glucose-linked transporter 5 prevents fructose-induced renal oxidative stress and salt-sensitive hypertension. \textit{Hypertension}, \textit{81}(6), 1296-1307.}{\url{https://doi.org/10.1161/HYPERTENSIONAHA.123.22535}}
+			\resumePubItem{\underline{\textbf{Zhang, R.}}, Jadhav, D.A., Kim, N., Kramer, B., Gonzalez-Vicente, A., on behalf of the Kidney Precision Medicine Project. (2024) Profiling cell heterogeneity and fructose transporter expression in the rat nephron by integrating single-cell and microdissected tubule segment transcriptomes. \textit{Int. J. Mol. Sci.}, \textit{25}(5), 3071.}{\url{https://doi.org/10.3390/ijms25053071}}
+			\resumePubItem{Brostek, A., Hong, N. J., \underline{\textbf{Zhang, R.}}, Forester, B. R., Barmore, L. E., Kaydo, L., Kluge, N., Smith, C., Garvin, J. L., and Gonzalez-Vicente, A. (2022) Independent Effects of Sex and Stress on Fructose-Induced Salt-Sensitive Hypertension. \textit{Physiological Reports}, \textit{10}(19), e15489.}{\url{https://doi.org/10.14814/phy2.15489}}
+		\resumePubListEnd
+	\resumeSubSection{Conference Abstracts}
+		\resumePubListStart
+			\resumePubItem{Jadhav, D. A., \underline{\textbf{Zhang, R.}}, Kramer, B. K., and Gonzalez-Vicente, A. (2024) Transcript deconvolution reveals heterogeneous cell populations in microdissected nephron segments of the rat kidney. \textit{Physiology}, \textit{39}, 831.}{\url{https://doi.org/10.1152/physiol.2024.39.S1.831}}
+			\resumePubItem{\underline{\textbf{Zhang, R.}}, Shi, S., Kleyman, T. R., and Gonzalez-Vicente, A. (2023) Increased epithelial Sodium channel (ENaC) activity mediates fructose-induced salt-sensitive hypertension. \textit{Journal of the American Society of Nephrology}, \textit{34}(11S), 514.}{\url{https://doi.org/10.1681/ASN.20233411S1514c}}
+			\resumePubItem{Kramer, B. K., \underline{\textbf{Zhang, R.}}, and Gonzalez-Vicente, A. (2023) Sexually dimorphic transcriptional phenotypes in tubular epithelial cells of the rat kidney. \textit{Hypertension}, \textit{80}(1S).}{\url{https://doi.org/10.1161/hyp.80.suppl_1.097}}
+			\resumePubItem{\underline{\textbf{Zhang, R.}}, and Gonzalez-Vicente, A. (2023) Addition of fructose to a high-salt diet increases the expression of aldosterone-response genes. \textit{Physiology}, \textit{38}(S1).}{\url{https://doi.org/10.1152/physiol.2023.38.S1.5733301}}
+			\resumePubItem{Gonzalez-Vicente, A., and \underline{\textbf{Zhang, R.}} (2023) Single-cell transcriptional phenotypes linked to anatomical localization of fructose transporters in rat proximal tubule segments. \textit{Physiology}, \textit{38}(S1).}{\url{https://doi.org/10.1152/physiol.2023.38.S1.5725750}}
+			\resumePubItem{Brostek, A., Hong, N. J., \underline{\textbf{Zhang, R.}}, Forester, B. R., Barmore, L. E., Kaydo, L., Kluge, N., Smith, C., Garvin, J. L., and Gonzalez-Vicente, A. (2022) Sex and stress in fructose-induced salt-sensitive hypertension. \textit{Hypertension}, \textit{79}(1S).}{\url{https://doi.org/10.1161/hyp.79.suppl_1.076}}
+		\resumePubListEnd
+
+% Academic Service & Engagement
+\section{ACADEMIC SERVICE \& ENGAGEMENT}
+	\resumeSubSection{Talks}
+		\resumeEngagementItemListStart
+			\resumeEngagementItem{``Dissecting the Role of Dopamine in the Processing of Tactile Signals''}{2024}{Computational Neuroscience Group Meeting, Department of Biology, Emory University}
+			\resumeEngagementItem{``Addition of fructose to a high-salt diet increases the expression of aldosterone-response genes''}{2023}{Renal Chalk Talks, Cleveland Kidney Center, Case Western Reserve University School of Medicine}
+		\resumeEngagementItemListEnd
+	\resumeSubSection{Poster Presentations}
+		\resumeEngagementItemListStart
+			\resumeEngagementItem{``Progression of abnormal signaling in primary somatosensory cortex of MitoPark mice''}{2025}{Larry J. Young Memorial Symposium}
+			\resumeEngagementItem{``Addition of fructose to a high-salt diet increases the expression of aldosterone-response genes''}{2023}{American Physiology Summit}
+			\resumeEngagementItem{``Single-cell transcriptomics linked to anatomical localization of fructose transporters in rat proximal tubule''}{2023}{American Physiology Summit}
+		\resumeEngagementItemListEnd
+\vspace{-8pt}
+
+% Awards and Honors
+\section{AWARDS}
+	\resumeSubSection{Prizes}
+		\resumeAwardItemListStart
+			\resumeAwardItem{Poster Award (Zhang et al., 2025)}{Larry J. Young Memorial Symposium}{May. 2025}
+			\resumeAwardItem{Abstract of Distinction (Gonzalez-Vicente \& Zhang, 2023)}{American Physiology Summit}{Apr. 2023}
+			\resumeAwardItem{Outstanding Junior Award}{Case Western Reserve University}{Mar. 2022}
+			\resumeAwardItem{Phi Beta Kappa Prize}{Case Western Reserve University}{Sep. 2021}
+			\resumeAwardItem{Dean's High Honors}{Case Western Reserve University}{2019-2023}
+		\resumeAwardItemListEnd
+	\resumeSubSection{Others}
+		\resumeAwardItemListStart
+			\resumeAwardItem{Petit Scholar Mentor}{Petit Scholar Program, Georgia Tech/Emory CNTP}{Jan. -- Dec., 2024}
+		\resumeAwardItemListEnd
+\vspace{-8pt}
+
+% Skills
+\section{Skills}
+	\textbf{Languages}: Chinese - Mandarin (\textit{native}), Chinese - Wu (\textit{native}), English (\textit{professional}), Spanish (\textit{Elementary})
+
+	\textbf{Technical}: {\color{GlacierBlue}\faPython} Python, {\color{GlacierBlue}\textsc{Matlab}}, {\color{GlacierBlue}\faRProject} R, {\color{GlacierBlue}\faJava} Java, {\color{GlacierBlue}\faDatabase} MySQL, {\color{GlacierBlue}\LaTeX}, {\color{GlacierBlue} \faGitSquare} \& {\color{GlacierBlue} \faGithubSquare} Github, {\color{GlacierBlue} \faLinux} Linux \& Unix Command Line
+
+	\textbf{Biological}: animal ethology, \textit{in vivo} electrophysiology, \textit{in vivo} multiphoton imaging, transcriptomics
 \end{document}
