@@ -16,13 +16,13 @@
 \usepackage{verbatim}
 \usepackage{array}
 \usepackage{enumitem}
+\usepackage{academicons}
 
 \setlength{\multicolsep}{-3pt}
 \setlength{\columnsep}{-1pt}
 \setlength{\tabcolsep}{0in}
 
 \input{glyphtounicode}
-
 
 \definecolor{GlacierBlue}{RGB}{70,150,180}
 % \definecolor{SpringWater}{RGB}{93,190,138}
@@ -128,10 +128,9 @@
 
 \newcommand{\resumeMenteeItem}[3]{%
     \item
-    {\color{GlacierBlue}$\circ$} 
-    \makebox[\dimexpr\linewidth-9pt\relax][l]{%
-        {#1} \hfill {\small #2 {\color{GlacierBlue} \textbullet} #3}%
-    }\vspace{0pt}
+	\begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        {{\color{GlacierBlue}\faPortrait} #1} & \textbf{\small #2 {\color{GlacierBlue} \textbullet} #3} \\
+    \end{tabular*}\vspace{2pt}
 }
 
 \newcommand{\resumeMenteeProject}[1]{%
@@ -199,8 +198,9 @@
     \vspace{0pt}
     \small
     \href{mailto:ronghao.zhang.academic@gmail.com}{{\color{gray}\faPaperPlane} \color{GlacierBlue} ronghao.zhang.academic@gmail.com} ~
-    \href{https://linkedin.com/in/ronghao-zhang-a81b05234}{{\color{gray}\faLinkedin} \color{GlacierBlue} linkedin.com/in/ronghao-zhang-a81b05234} ~
-    \href{https://ronghao-zhang.github.io/}{{\color{gray}\faGithub} \color{GlacierBlue} ronghao-zhang.github.io}
+    \href{https://linkedin.com/in/ronghao-zhang-a81b05234}{{\color{gray}\faLinkedin} \color{GlacierBlue} ronghao-zhang-a81b05234} ~
+    \href{https://ronghao-zhang.github.io/}{{\color{gray}\faGithub} \color{GlacierBlue} ronghao-zhang.github.io} ~
+	\href{https://orcid.org/0000-0001-6418-090X}{{\color{gray}\faOrcid} \color{GlacierBlue} 0000-0001-6418-090X}
     \vspace{1pt}
 \end{center}
 
@@ -232,7 +232,7 @@
 			\resumeItemListEnd
 
 		\resumeWorkSubheading
-			{University of Chicago}{Research Assistant}{Cleveland, OH}{Summer, 2022}
+			{University of Chicago}{Research Assistant}{Chicage, IL}{Summer, 2022}
 			\resumeItemListStart
 				\resumeItem{\textit{Adviser}: Dr. Sliman Bensmaia, Department of Organismal Biology and Anatomy}
 			\resumeItemListEnd

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1752988854.42334 "/Users/zhangronghao/Documents/github_repo/ronghao-zhang-website/assets/pdfs/curriculum_vitae/Ronghao_Zhang_Curriculum_Vitae.tex" "Ronghao_Zhang_Curriculum_Vitae.pdf" "Ronghao_Zhang_Curriculum_Vitae" 1752988855.2971 0
-  "/Users/zhangronghao/Documents/github_repo/ronghao-zhang-website/assets/pdfs/curriculum_vitae/Ronghao_Zhang_Curriculum_Vitae.tex" 1752988854.19373 15935 96f35befe3a6012e100250fd49de0a0e ""
+["pdflatex"] 1753029978.71894 "/Users/zhangronghao/Documents/github_repo/ronghao-zhang-website/assets/pdfs/curriculum_vitae/Ronghao_Zhang_Curriculum_Vitae.tex" "Ronghao_Zhang_Curriculum_Vitae.pdf" "Ronghao_Zhang_Curriculum_Vitae" 1753029979.40581 0
+  "/Users/zhangronghao/Documents/github_repo/ronghao-zhang-website/assets/pdfs/curriculum_vitae/Ronghao_Zhang_Curriculum_Vitae.tex" 1753029978.52688 16080 bfe7d18db7a37a53f4be0e35356aefbe ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
@@ -8,7 +8,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcbx1000.tfm" 1136768653 1536 30fde759286ded71559881bfa2623939 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -47,7 +46,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb" 1248133631 36310 f5ddc6715cc60deb16d9db5ded6a9391 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb" 1215737283 145408 43d44302ca7d82d487f511f83e309505 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1215737283 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb" 1651520503 204258 177851ae99767090543ae24e73c92f2f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb" 1651520503 295323 d099723373a00cc17d5ae0c9738bb5b3 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -70,6 +68,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty" 1593379760 20089 80423eac55aa175305d35b49e04fe23b ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty" 1575152242 21514 b7557edcee22835ef6b03ede1802dad4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty" 1576624663 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/academicons/academicons.sty" 1647035839 19357 24035ca64a43d5d6497c6e2467a36d10 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/atveryend/atveryend.sty" 1728505250 1695 be6b4d13b33db697fd3fd30b24716c1a ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls" 1738182759 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1738182759 2963 d8ec5a1b4e0a106c5c737900202763e4 ""
@@ -119,9 +118,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1752809562 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Ronghao_Zhang_Curriculum_Vitae.aux" 1752988855.17795 1068 e66779cb6237f85eed0fed3412b57ab1 "pdflatex"
-  "Ronghao_Zhang_Curriculum_Vitae.out" 1752988855.1785 863 fdfb4c761f27c24da2bb04d693161dad "pdflatex"
-  "Ronghao_Zhang_Curriculum_Vitae.tex" 1752988854.19373 15935 96f35befe3a6012e100250fd49de0a0e ""
+  "Ronghao_Zhang_Curriculum_Vitae.aux" 1753029979.31798 1068 e66779cb6237f85eed0fed3412b57ab1 "pdflatex"
+  "Ronghao_Zhang_Curriculum_Vitae.out" 1753029979.31916 863 fdfb4c761f27c24da2bb04d693161dad "pdflatex"
+  "Ronghao_Zhang_Curriculum_Vitae.tex" 1753029978.52688 16080 bfe7d18db7a37a53f4be0e35356aefbe ""
   (generated)
   "Ronghao_Zhang_Curriculum_Vitae.aux"
   "Ronghao_Zhang_Curriculum_Vitae.log"
