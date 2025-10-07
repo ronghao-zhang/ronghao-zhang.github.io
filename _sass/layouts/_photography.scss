@@ -75,7 +75,6 @@
     overflow: hidden;
     width: 100%;
     
-
     .img-wrapper {
       position: relative;
       width: 100%;
@@ -107,28 +106,28 @@
         background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.25) 66%, rgba(0, 0, 0, 0) 100%);
         transition: opacity 0.3s ease;
         pointer-events: auto;
-        border-bottom-left-radius: 5px;    /* <-- added */
-        border-bottom-right-radius: 5px;   /* <-- added */
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
       }
 
       .info-overlay:hover {
         opacity: 1;
       }
     }
-
   }
 
-  // Fixed "Back to Top" Button
+  // Bottom inline go-top link
   .go-top-wrapper {
     margin-top: 30px;
-    padding-bottom: 30px; // Space between underline and bottom of page
+    padding-bottom: 30px;
     text-align: center;
+
     .go-top-btn {
       position: relative;
       font-size: 1rem;
       text-decoration: none;
       color: inherit;
-      padding-bottom: 8px; // Space between text and underline
+      padding-bottom: 8px;
       
       &::after {
         content: "";
@@ -146,9 +145,10 @@
       }
     }
   }
-  /* Lightbox backdrop */
+
+  /* Lightbox */
   .lightbox {
-    display: none; /* hide by default */
+    display: none;
     position: fixed;
     justify-content: center;
     align-items: center;
@@ -156,33 +156,29 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.95); /* or black if you prefer */
+    background-color: rgba(255, 255, 255, 0.95);
     z-index: 9999;
-
-    /* Added for fade animation */
     opacity: 0;
     transition: opacity 0.3s ease;
   }
 
   .lightbox.visible {
-    display: flex;  /* show flex layout */
-    opacity: 1;     /* fade in */
+    display: flex;
+    opacity: 1;
   }
 
   .lightbox-image {
     max-height: 90vh;
     max-width: 100vw;
     object-fit: contain;
-
-    /* Optional: add subtle scale on hover */
     transition: transform 0.2s ease;
     cursor: zoom-out;
   }
+
   .lightbox-image:hover {
     transform: scale(1.05);
   }
 
-  /* Close button */
   .close-btn {
     position: absolute;
     top: 30px;
@@ -193,4 +189,35 @@
     z-index: 1001;
   }
 
+  /* Floating circular "Go to Top" button */
+  .floating-top-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: vars.$theme-color;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 10000;
+  }
+
+  .floating-top-btn:hover {
+    background-color: vars.$theme-dark2;
+    transform: translateY(-3px);
+  }
+
+  .floating-top-btn.visible {
+    opacity: 1;
+    visibility: visible;
+  }
 }

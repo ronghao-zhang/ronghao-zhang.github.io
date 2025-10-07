@@ -61,7 +61,8 @@ title: Photography
   <div id="lightbox" class="lightbox">
     <img class="lightbox-image" src="" alt="Full-size image">
   </div>
-</div>
+<!-- Floating circular Go to Top button -->
+<div id="floatingTopBtn" class="floating-top-btn" title="Back to Top">↑</div>
 
 
 <script>
@@ -110,4 +111,21 @@ title: Photography
     }
   });
 
+  // Floating Go to Top button logic
+  const topBtn = document.getElementById('floatingTopBtn');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 400) {
+      topBtn.classList.add('visible');
+    } else {
+      topBtn.classList.remove('visible');
+    }
+  });
+
+  topBtn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
 </script>
