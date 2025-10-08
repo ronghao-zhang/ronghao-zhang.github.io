@@ -32,26 +32,22 @@ title: Photography
               <img src="{{ photo.url }}" alt="{{ photo.title }}" class="clickable-image">
 
               <div class="info-overlay">
-                <p><strong>{{ photo.title }}</strong></p>
-                {% if photo.date %}
-                  <p>{{ photo.date }}</p>
-                {% endif %}
-                <p>{{ photo.location }}</p>
-                <p class="meta">
-                  {% if photo.device %}{{ photo.device }}&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
-                  {% if photo.aperture %}{{ photo.aperture }}&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
-                  {% if photo.exposure %}{{ photo.exposure }}&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
-                  {% if photo.iso %}ISO{{ photo.iso }}{% endif %}
-                </p>
+                {% if photo.title %}{{ photo.title }}{% endif %}
+                <br>
+                {% if photo.date %}{{ photo.date }}&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
+                {% if photo.location %}&nbsp;&nbsp;&nbsp;&nbsp;{{ photo.location }}{% endif %}
+                <br>
+                {% if photo.device %}{{ photo.device }}&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
+                {% if photo.flength %}{{ photo.flength }}&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
+                {% if photo.aperture %}{{ photo.aperture }}&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
+                {% if photo.exposure %}{{ photo.exposure }}&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
+                {% if photo.iso %}ISO{{ photo.iso }}{% endif %}
+                
               </div>
             </div>
           </div>
           {% endif %}
         {% endfor %}
-      </div>
-
-      <div class="go-top-wrapper">
-        <a class="go-top-btn" href="#photography">↑ Back to Top</a>
       </div>
 
     </div>
@@ -63,6 +59,7 @@ title: Photography
   </div>
 <!-- Floating circular Go to Top button -->
 <div id="floatingTopBtn" class="floating-top-btn" title="Back to Top">↑</div>
+</div>
 
 
 <script>
@@ -111,7 +108,7 @@ title: Photography
     }
   });
 
-  // Floating Go to Top button logic
+  // Floating "Go to Top" button logic
   const topBtn = document.getElementById('floatingTopBtn');
 
   window.addEventListener('scroll', () => {
