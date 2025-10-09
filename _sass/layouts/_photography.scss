@@ -30,23 +30,24 @@
 
     .tag-cloud {
       display: flex;
-      flex-direction: column; // one tag per row
-      align-items: flex-start; // align to the left edge
-      margin: 30px 0;
-      padding: 0;
+      //align-items: flex-start; // align to the left edge
+      margin : 70px 0 30px;
+      padding:0;
+      opacity: 0.75;
+      visibility: visible;
+  
 
       li {
         background-color: vars.$theme-color;
         display: block; // ensures full-width row behavior
         margin-bottom: 8px;
-        padding: 0 12px; // smaller horizontal padding
+        padding: 0 20px; // smaller horizontal padding
         border-radius: 20px;
         color: #fff;
         font-weight: 600;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         line-height: 35px;
         letter-spacing: -0.03rem;
-        width: fit-content; // keeps button compact but one per line
         text-align: left;
 
         .meta {
@@ -63,11 +64,9 @@
 
   @media (max-width: 768px) {
     .floating-tag-cloud {
-      position: static; // disable floating on small screens
       padding-left: 0;
 
       .tag-cloud {
-        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
       }
@@ -215,7 +214,7 @@
   }
 
   .floating-top-btn.visible {
-    opacity: 0.6;
+    opacity: 0.75;
     visibility: visible;
   }
 }
