@@ -10,76 +10,185 @@
 #     iso: 
 
 - picture:
-    category: Lovely Animals
-    title: Ball Python, Python regius (球蟒)
-    url: /assets/gallery/2025-06_Python.png
-    location: Atlanta Reptalian EXPO, GA, US (亚特兰大爬行类博览会)
-    date: 2025-06-15
-    device: Canon EOS RP + RF24-105mm F4-7.1 IS STM
+    category: Wildlife
+    title: Steller's Jay
+    url: /assets/gallery/2025-09_Stellers_Jay.png
+    location: Cooper Landing, AK, US
+    date: 2025-09-25
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    flength: 400MM
     aperture: F/8
-    exposure: 1/200S
-    iso: 2000
+    exposure: 1/500S
+    iso: 3600
 
 - picture:
-    category: Lovely Animals
-    title: Horses at cades cove (群山、落日和马)
+    category: National Parks
+    title: Bald Eagles on Cliff
+    url: /assets/gallery/2025-09_Bald_Eagle.png
+    location: Kenai Fjords National Park, AK, US
+    date: 2025-09-25
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    flength: 400MM
+    aperture: F/8
+    exposure: 1/500S
+    iso: 1600
+
+- picture:
+    category: Wildlife
+    title: Harbor Seal
+    url: /assets/gallery/2025-09_Harbor_Seal.png
+    location: Seward, AK, US
+    date: 2025-09-25
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    flength: 400MM
+    aperture: F/8
+    exposure: 1/500S
+    iso: 1600
+
+- picture:
+    category: Wildlife
+    title: Grizzly Bear
+    url: /assets/gallery/2025-09_Grizzly_Bear.png
+    location: Alaska Wildlife Conservation Center, AK, US
+    date: 2025-09-24
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    flength: 400MM
+    aperture: F/8
+    exposure: 1/60S
+    iso: 400
+
+- picture:
+    category: Wildlife
+    title: Moose
+    url: /assets/gallery/2025-09_Moose.png
+    location: Exit Glacier, AK, US
+    date: 2025-09-24
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    flength: 400MM
+    aperture: F/8
+    exposure: 1/100S
+    iso: 1600
+
+- picture:
+    category: Landscape
+    title: Brooks Range
+    url: /assets/gallery/2025-09_Brooks_Range.png
+    location: Brooks Range, AK, US
+    date: 2025-09-20
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    flength: 100MM
+    aperture: F/7.1
+    exposure: 1/1000S
+    iso: 800
+
+- picture:
+    category: National Parks
+    title: Gates of the Arctic National Park
+    url: /assets/gallery/2025-09_Gates_Arctic.png
+    location: Gates of the Arctic National Park, AK, US
+    date: 2025-09-20
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    flength: 100MM
+    aperture: F/8
+    exposure: 1/1000S
+    iso: 800
+
+- picture:
+    category: Landscape
+    title: Atigun River Valley
+    url: /assets/gallery/2025-09_Atigun_River_Valley.png
+    location: Brooks Range, AK, US
+    date: 2025-09-20
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    flength: 120MM
+    aperture: F/7.1
+    exposure: 1/2000S
+    iso: 200
+
+
+- picture:
+    category: My Pets 
+    title: Jumping Spider on My Hand
+    url: /assets/gallery/2025-09-07_Jumper.png
+    location: Great Smoky Mountains National Park, TN, US
+    date: 2025-05-31
+    device: Canon EOS RP + RF24-105mm F4-7.1 IS STM
+    flength: 105MM
+    aperture: F/8
+    exposure: 1/250S
+    iso: 100
+
+# - picture:
+#     category: Lovely Animals
+#     title: Ball Python, Python regius (球蟒)
+#     url: /assets/gallery/2025-06_Python.png
+#     location: Atlanta Reptalian EXPO, GA, US (亚特兰大爬行类博览会)
+#     date: 2025-06-15
+#     device: Canon EOS RP + RF24-105mm F4-7.1 IS STM
+#     aperture: F/8
+#     exposure: 1/200S
+#     iso: 2000
+
+- picture:
+    category: Wildlife 
+    title: Horses at cades cove 
     url: /assets/gallery/2025-05_Horse.png
-    location: Great Smoky Mountains National Park, TN, US (大烟山国家公园)
+    location: Great Smoky Mountains National Park, TN, US
     date: 2025-05-31
     device: Canon EOS RP + RF24-105mm F4-7.1 IS STM
     aperture: F/7.1
     exposure: 1/200S
     iso: 100
 
-- picture:
-    category: Lovely Animals
-    title: Bear hidng in grassland at cades cove (草丛中潜藏的熊)
-    url: /assets/gallery/2025-05_Hiding_Bear.png
-    location: Great Smoky Mountains National Park, TN, US (大烟山国家公园)
-    date: 2025-05-31
-    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
-    aperture: F/9
-    exposure: 1/800S
-    iso: 3200
+# - picture:
+#     category: Landscape
+#     title: Bear hidng in grassland at cades cove
+#     url: /assets/gallery/2025-05_Hiding_Bear.png
+#     location: Great Smoky Mountains National Park, TN, US
+#     date: 2025-05-31
+#     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+#     aperture: F/9
+#     exposure: 1/800S
+#     iso: 3200
 
 - picture:
-    category: Lovely Animals
-    title: Baby bear at cades cove (树上的小熊)
+    category: Wildlife
+    title: Baby bear at cades cove
     url: /assets/gallery/2025-05_Baby_Bear.png
-    location: Great Smoky Mountains National Park, TN, US (大烟山国家公园)
+    location: Great Smoky Mountains National Park, TN, US 
     date: 2025-05-31
     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
     aperture: F/8
     exposure: 1/640S
     iso: 3200
 
-- picture:
-    category: Lovely Animals
-    title: Mom bear at cades cove (路旁的母熊)
-    url: /assets/gallery/2025-05_Mom_Bear.png
-    location: Great Smoky Mountains National Park, TN, US (大烟山国家公园)
-    date: 2025-05-31
-    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
-    aperture: F/6.3
-    exposure: 1/250S
-    iso: 8000
+# - picture:
+#     category: Wild Life
+#     title: Mom bear at cades cove 
+#     url: /assets/gallery/2025-05_Mom_Bear.png
+#     location: Great Smoky Mountains National Park, TN, US
+#     date: 2025-05-31
+#     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+#     aperture: F/6.3
+#     exposure: 1/250S
+#     iso: 8000
+
+# - picture:
+#     category: Wild Life
+#     title: Wild Bear walking in Anakeesta
+#     url: /assets/gallery/2025-05_Walking_Bear.png
+#     location: Gatlinburg, TN, US
+#     date: 2025-05-29
+#     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+#     aperture: F/5.6
+#     exposure: 1/200S
+#     iso: 4000
 
 - picture:
-    category: Lovely Animals
-    title: Wild Bear walking in Anakeesta (林间漫步的野生熊)
-    url: /assets/gallery/2025-05_Walking_Bear.png
-    location: Gatlinburg, TN, US (田纳西州加特林堡)
-    date: 2025-05-29
-    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
-    aperture: F/5.6
-    exposure: 1/200S
-    iso: 4000
-
-- picture:
-    category: U.S. National Parks
-    title: Synchronized fireflies at litter river trail (同步闪烁萤火虫)
+    category: National Parks
+    title: Synchronized fireflies at litter river trail 
     url: /assets/gallery/2025-05_Firefly_CanonEOSRP.png
-    location: Great Smoky Mountains National Park, TN, US (大烟山国家公园)
+    location: Great Smoky Mountains National Park, TN, US
     date: 2025-05-29
     device: Canon EOS RP + RF50mm F1.8 STM
     aperture: F/2.8
@@ -88,9 +197,9 @@
 
 - picture:
     category: Landscape
-    title: Sunset, Tree, and Gull (老树昏鸦)
+    title: Sunset, Tree, and Gull
     url: /assets/gallery/2024-11_Crystal_River_Tree.png
-    location: Kings Bay, Crystal River, FL, US (佛罗里达州水晶河)
+    location: Kings Bay, Crystal River, FL, US 
     date: 2024-11-28
     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
     aperture: F/8
@@ -98,10 +207,10 @@
     iso: 640
 
 - picture:
-    category: Lovely Animals
-    title: Dolphin dorsal fins (海豚背鳍)
+    category: Wildlife
+    title: Dolphin dorsal fins
     url: /assets/gallery/2024-11_Tempa_Dolphins.png
-    location: Hillsborough Bay, Tampa, FL, US (佛罗里达州坦帕湾)
+    location: Hillsborough Bay, Tampa, FL, US
     date: 2024-11-27
     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
     aperture: F/10
@@ -110,25 +219,13 @@
 
 - picture:
     category: Landscape
-    title: Views of Hiawassee & Lake Chatuge (查图格湖)
+    title: Views of Hiawassee & Lake Chatuge
     url: /assets/gallery/2024-10-13_Bell_Mountain.png
-    location: Bell Mountain, GA, US (佐治亚州贝尔山)
-    date: 2024-10-13
+    location: Bell Mountain, GA, USM
     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
     aperture: F/5.6
     exposure: 1/640S
     iso: 100
-
-- picture:
-    category: Birds
-    title: Juvenile little blue heron foraging in marshes (小蓝鹭幼鸟)
-    url: /assets/gallery/2024-02_Little_Blue_Heron.png
-    location: Wassaw National Wildlife Refuge, Savannah, GA, US
-    date: 2024-02-16
-    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
-    aperture: F/8
-    exposure: 1/800S
-    iso: 800
 
 # - picture:
 #     category: Birds
@@ -142,8 +239,8 @@
 #     iso: 400
 
 - picture:
-    category: Lovely Animals
-    title: Adult Aligator (成年短吻鳄)
+    category: Wildlife
+    title: Adult Aligator
     url: /assets/gallery/2024-02_Adult_Gator.png
     location: Wassaw National Wildlife Refuge, Savannah, GA, US
     date: 2024-02-16
@@ -152,16 +249,16 @@
     exposure: 1/800S
     iso: 2500
 
-- picture:
-    category: Lovely Animals
-    title: Juvenile Aligator (幼年短吻鳄)
-    url: /assets/gallery/2024-02_Young_Gator.png
-    location: Wassaw National Wildlife Refuge, Savannah, GA, US
-    date: 2024-02-16
-    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
-    aperture: F/9
-    exposure: 1/800S
-    iso: 2000
+# - picture:
+#     category: Wild Life
+#     title: Juvenile Aligator 
+#     url: /assets/gallery/2024-02_Young_Gator.png
+#     location: Wassaw National Wildlife Refuge, Savannah, GA, US
+#     date: 2024-02-16
+#     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+#     aperture: F/9
+#     exposure: 1/800S
+#     iso: 2000
 
 # - picture:
 #     category: Lovely Animals
@@ -174,22 +271,22 @@
 #     exposure: 1/800S
 #     iso: 8000
 
-- picture:
-    category: Lovely Animals
-    title: Barbary Sheep, Ammotragus lervia (巴巴里羊)
-    url: /assets/gallery/2024-08-17_Barbary_Sheep.png
-    location: Wild Animal Safari, Pine Mountain, GA, US
-    date: 2024-08-17
-    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
-    aperture: F/8
-    exposure: 1/640S
-    iso: 2500
+# - picture:
+#     category: Wild Life
+#     title: Barbary Sheep, Ammotragus lervia (巴巴里羊)
+#     url: /assets/gallery/2024-08-17_Barbary_Sheep.png
+#     location: Wild Animal Safari, Pine Mountain, GA, US
+#     date: 2024-08-17
+#     device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+#     aperture: F/8
+#     exposure: 1/640S
+#     iso: 2500
 
 - picture:
-    category: Cin
-    title: Cin on Grassland (草地上的Cin)
+    category: My Pets
+    title: Cin on Grassland 
     url: /assets/gallery/2024-04_Cin.png
-    location: Atlanta, GA, US (佐治亚州亚特兰大)
+    location: Atlanta, GA, US
     date: 2024-04-06
     device: Canon EOS RP + RF24-105mm F4-7.1 IS STM
     aperture: F/9
@@ -197,10 +294,10 @@
     iso: 100
 
 - picture:
-    category: Cin
-    title: Cin at 3 months old (初见Cin)
+    category: My Pets
+    title: Cin at 3 months old 
     url: /assets/gallery/2024-01-20_Cin.png
-    location: Decatur, GA, US (佐治亚州迪凯特)
+    location: Decatur, GA, US
     date: 2024-01-20
     device: Canon EOS RP + RF24-105mm F4-7.1 IS STM
     aperture: F/5
