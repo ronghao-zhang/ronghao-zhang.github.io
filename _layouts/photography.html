@@ -7,18 +7,20 @@ title: Photography
   <section class="bg"></section>
   <h1 class="title">{{ page.title }}</h1>
 
-  <ul class="tag-cloud">
-    {% assign categories = site.data.gallery | map: "picture" | map: "category" | uniq | sort %}
-    {% for cat in categories %}
-      <a href="#{{ cat | slugify }}">
-        <li class="tag" style="background-color: rgb(210, 210, 210)">
-          {{ cat }}  <span class="meta">
-            {{ site.data.gallery | where: "picture.category", cat | size }}
-          </span>
-        </li>
-      </a>
-    {% endfor %}
-  </ul>
+  <div class="floating-tag-cloud">
+    <ul class="tag-cloud">
+      {% assign categories = site.data.gallery | map: "picture" | map: "category" | uniq | sort %}
+      {% for cat in categories %}
+        <a href="#{{ cat | slugify }}">
+          <li class="tag" style="background-color: rgb(210, 210, 210)">
+            {{ cat }}  <span class="meta">
+              {{ site.data.gallery | where: "picture.category", cat | size }}
+            </span>
+          </li>
+        </a>
+      {% endfor %}
+    </ul>
+  </div>
 
   <div class="tag-groups">
     {% for cat in categories %}
@@ -125,4 +127,18 @@ title: Photography
       behavior: 'smooth'
     });
   });
+
+
+  window.addEventListener("scroll", function () {
+    const toc = document.getElementById("toc");
+    const offsetTop = toc.offsetTop;
+
+    if (window.scrollY > offsetTop + 100) {
+      toc.classList.add("floating");
+    } else {
+      toc.classList.remove("floating");
+    }
+  });
+
+
 </script>
