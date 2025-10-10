@@ -19,48 +19,60 @@
     margin-bottom: 30px;
   }
 
-  // Tag Cloud Buttons
-  .floating-tag-cloud {
-    position: sticky;
-    top: 100px; // stays visible after scrolling past header
+.floating-tag-cloud {
+  position: sticky;
+  top: 30px; // stays visible after scrolling past header
+  left: 0;
+  z-index: 9000;
+  background: transparent;
+  padding-left: 0px;
+  overflow: visible;
+
+  // White background bar that covers both the tags and the top offset space
+  &::before {
+    content: "";
+    position: absolute;
+    top: -30px; // extend upward to cover the sticky gap
     left: 0;
-    z-index: 9000;
-    background: transparent;
-    padding-left: 0px; // shift slightly from page edge
+    width: 100vw; // full viewport width
+    height: calc(100% + 60px); // cover tag height + top offset
+    background-color: #fff; // pure white
+    z-index: -1; // behind tag buttons
+  }
 
-    .tag-cloud {
-      display: flex;
-      //align-items: flex-start; // align to the left edge
-      margin : 70px 0 30px;
-      padding:0;
-      opacity: 0.75;
-      visibility: visible;
-  
+  .tag-cloud {
+    display: flex;
+    margin: 70px 0 30px;
+    padding: 0;
+    opacity: 0.75;
+    visibility: visible;
 
-      li {
-        background-color: vars.$theme-color;
-        display: block; // ensures full-width row behavior
-        margin-bottom: 8px;
-        padding: 0 20px; // smaller horizontal padding
-        border-radius: 20px;
-        color: #fff;
-        font-weight: 600;
-        font-size: 1.2rem;
-        line-height: 35px;
-        letter-spacing: -0.03rem;
-        text-align: left;
+    li {
+      background-color: vars.$theme-color;
+      display: block;
+      margin-bottom: 8px;
+      padding: 0 20px;
+      border-radius: 20px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 1.2rem;
+      line-height: 35px;
+      letter-spacing: -0.03rem;
+      text-align: left;
 
-        .meta {
-          vertical-align: super;
-          font-size: 0.625rem;
-        }
+      .meta {
+        vertical-align: super;
+        font-size: 0.625rem;
+      }
 
-        &:hover {
-          background-color: vars.$theme-dark2 !important;
-        }
+      &:hover {
+        background-color: vars.$theme-dark2 !important;
       }
     }
   }
+}
+
+
 
   @media (max-width: 768px) {
     .floating-tag-cloud {
@@ -191,7 +203,7 @@
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color: rgb(141, 141, 141);
+    background-color: vars.$theme-color;
     color: #fff;
     width: 50px;
     height: 50px;
