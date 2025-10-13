@@ -105,6 +105,17 @@
     exposure: 1/2000S
     iso: 200
 
+- picture:
+    category: Landscape
+    title: Atigun River 
+    url: /assets/gallery/2025-09_Atigun_River.png
+    location: Brooks Range, AK, US
+    date: 2025-09-20
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    flength: 100MM
+    aperture: F/7.1
+    exposure: 1/2000S
+    iso: 1600
 
 - picture:
     category: My Pets 
