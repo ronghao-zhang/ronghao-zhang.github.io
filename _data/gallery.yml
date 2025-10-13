@@ -118,6 +118,42 @@
     iso: 1600
 
 - picture:
+    category: Landscape
+    title: Devonian Skajit Limestone
+    url: /assets/gallery/2025-09_Sukakpak.png
+    location: Mount Sukakpak, AK, US
+    date: 2025-09-20
+    device: Canon EOS RP + RF24-105mm F4-7.1 IS STM
+    flength: 50MM
+    aperture: F/5
+    exposure: 1/400S
+    iso: 100
+    
+- picture:
+    category: Landscape
+    title: Alaska Pipeline & Dalton Highway
+    url: /assets/gallery/2025-09_AK_Pipe_I.png
+    location: AK, US
+    date: 2025-09-20
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    flength: 100MM
+    aperture: F/7.1
+    exposure: 1/1000S
+    iso: 800
+
+- picture:
+    category: Wildlife
+    title: Canada Jay
+    url: /assets/gallery/2025-09_Canada_Jay.png
+    location: Dalton Highway, AK, US
+    date: 2025-09-20
+    device: Canon EOS RP + RF100-400mm F5.6-8 IS USM
+    flength: 100MM
+    aperture: F/8
+    exposure: 1/1000S
+    iso: 3200
+
+- picture:
     category: My Pets 
     title: Jumping Spider on My Hand
     url: /assets/gallery/2025-09-07_Jumper.png
