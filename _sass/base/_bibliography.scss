@@ -73,5 +73,20 @@ ol.bibliography{
         div.abstract.hidden.open {
             border-color: vars.$divider-color;
         }
+        .links {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2px;
+        }
+        .citations-badge {
+            font-size: 0.75rem;
+            color: vars.$theme-dark;
+            border: 1px solid vars.$theme-dark;
+            border-radius: 3px;
+            padding: 2px 5px;
+            white-space: nowrap;
+            margin-left: auto;
+        }
     }
 }

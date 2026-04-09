@@ -54,7 +54,7 @@ scholar:
   sort_by: year,month
   order: descending,descending
 
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, citations] # Filter out certain bibtex entry keywords used internally from the bib output
 
 academicons:
   version: "1.9.1"

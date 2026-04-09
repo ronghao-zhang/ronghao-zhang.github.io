@@ -152,6 +152,11 @@
   {%- if entry.doi %}
     [<a href="{{ entry.doi | prepend: 'http://doi.org/' }}" class="btn btn-sm z-depth-0" role="button">DOI</a>]
   {%- endif %}
+  {%- assign scholar_title = entry.title | remove: "[ABSTRACT] " | remove: "[PRE-PRINT] " | uri_escape %}
+  [<a href="https://scholar.google.com/scholar?q={{ scholar_title }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Scholar</a>]
+  {%- if entry.citations %}
+    <span class="citations-badge">Cited by {{ entry.citations }}</span>
+  {%- endif %}
   </div>
 
   {% if entry.abstract -%}
