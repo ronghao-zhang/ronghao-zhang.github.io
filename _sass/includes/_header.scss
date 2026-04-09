@@ -10,6 +10,11 @@ header{
         overflow-x: scroll;
         overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+        &::-webkit-scrollbar        { height: 3px; }
+        &::-webkit-scrollbar-track  { background: transparent; }
+        &::-webkit-scrollbar-thumb  { background-color: rgba(0, 0, 0, 0.2); border-radius: 3px; }
         ul{
             li{
                 position: relative;

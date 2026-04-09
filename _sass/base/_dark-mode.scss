@@ -261,6 +261,15 @@ html[data-theme="dark"] {
   }
   .highlight pre { background-color: #1a1d35 !important; }
 
+  // ── Navigation scrollbar ─────────────────────────────────────────────
+  header nav {
+    scrollbar-width: thin;
+    scrollbar-color: $dk-divider transparent;
+    &::-webkit-scrollbar        { height: 3px; }
+    &::-webkit-scrollbar-track  { background: transparent; }
+    &::-webkit-scrollbar-thumb  { background-color: $dk-divider; border-radius: 3px; }
+  }
+
   // ── Dark-mode toggle icon state ───────────────────────────────────────
   #dark-mode-toggle {
     .icon-moon { display: none; }
