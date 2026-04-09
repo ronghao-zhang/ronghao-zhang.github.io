@@ -186,6 +186,11 @@ html[data-theme="dark"] {
   #icons i {
     background-color: $dk-icon-bg !important;
     color: $dk-text               !important;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  #icons i:hover {
+    background-color: $dk-title  !important;
+    color: #fff                   !important;
   }
 
   // ── Photography — section titles & tag cloud ──────────────────────────
