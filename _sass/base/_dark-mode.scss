@@ -1,0 +1,264 @@
+// ─── Dark mode colour tokens ───────────────────────────────────────────────
+$dk-bg:          #141520;
+$dk-surface:     #1b1d2f;
+$dk-surface-2:   #21243a;  // for cards / modal
+$dk-text:        #d0d6f0;
+$dk-text-muted:  rgba(208, 214, 240, 0.55);
+$dk-divider:     #2e3355;
+$dk-title:       #7eb8f7;
+$dk-link-hover:  #c4b0a6;
+$dk-icon-bg:     rgba(255, 255, 255, 0.08);
+$dk-bar:         #2d3560;   // timeline / skill bars
+$dk-band:        #1c3555;   // page title band (replaces $theme-dark on dark bg)
+
+// ─── Smooth transition (only after first paint — see dark-mode.js) ─────────
+html.theme-ready,
+html.theme-ready body,
+html.theme-ready header,
+html.theme-ready footer {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+// ─── Dark mode overrides ───────────────────────────────────────────────────
+html[data-theme="dark"] {
+  // Set background on html only (the viewport canvas layer).
+  // body must stay transparent so z-index:-1 .bg bands are not painted over.
+  background-color: $dk-bg;
+
+  body {
+    background-color: transparent;
+    color: $dk-text;
+  }
+
+  a:link, a:visited, a:active { color: $dk-text; }
+  a:hover                     { color: $dk-link-hover; }
+
+  // ── Title bands (all pages) ───────────────────────────────────────────
+  // Sub-pages use <section class="bg">, home page uses <div class="bg">
+  // inside #about-me. Target both directly to avoid ID-specificity races.
+  section.bg,
+  #about-me .bg {
+    background-color: $dk-band !important;
+  }
+
+  // ── Publication list ──────────────────────────────────────────────────
+  ol.bibliography {
+    list-style: none !important;   // ensure no stray markers in dark mode
+
+    li {
+      list-style: none !important;
+
+      .title      { color: $dk-title !important; }
+      .third-line { color: $dk-text  !important; }
+
+      .author > em { border-bottom-color: $dk-text; }
+      .author a {
+        color: $dk-text !important;
+        border-bottom-color: $dk-text-muted;
+      }
+
+      div.abstract.hidden      { border-color: transparent !important; }
+      div.abstract.hidden.open { border-color: $dk-divider !important; }
+
+      .citations-badge {
+        color: #9ab5d4 !important;
+        border-color: #9ab5d4 !important;
+      }
+    }
+  }
+
+  h2.bibliography {
+    color: $dk-text-muted !important;
+  }
+
+  a.btn {
+    color: $dk-title !important;
+    &:hover { color: $dk-link-hover !important; }
+  }
+
+  // ── Presentations ──────────────────────────────────────────────────────
+  #presentations ol.presentations-list li {
+    border-top-color: $dk-divider !important;
+
+    .date     { color: $dk-title       !important; }
+    .location { color: $dk-link-hover  !important; }
+    .comment  { color: $dk-text-muted  !important; }
+  }
+
+  // ── Portfolio — career / education / experience ────────────────────────
+  // Use !important to beat #portfolio #career ... compiled specificity
+  #career {
+    p.title { color: $dk-title !important; }
+
+    .exper-list {
+      border-left-color: $dk-bar !important;
+
+      li.meta {
+        &::before    { background-color: $dk-bar        !important; }
+        .date        { color: $dk-text-muted             !important; }
+        p,
+        .description { color: $dk-text                  !important; }
+      }
+    }
+
+    .skill-list li.skill {
+      .name          { color: $dk-text                   !important; }
+      .progress      { background-color: rgba(255,255,255,0.06) !important; }
+      .progress-bar  { background-color: $dk-bar         !important; }
+    }
+
+    .interests-list li.interest {
+      color: $dk-text !important;
+      &::before { color: $dk-bar !important; }
+    }
+  }
+
+  // ── Featured projects ─────────────────────────────────────────────────
+  #project {
+    p.title { color: $dk-title !important; }
+
+    .bg { background-color: rgba(255,255,255,0.02) !important; }
+
+    .card {
+      background-color: $dk-surface-2 !important;
+      box-shadow: rgba(0,0,0,0.4) 0px 1px 5px !important;
+
+      .text-wrap {
+        .title       { color: $dk-title     !important; }
+        .date,
+        .meta,
+        .meta span   { color: $dk-text-muted !important; }
+        .description { color: $dk-text       !important; }
+      }
+
+      .icons a i {
+        background-color: rgba(255,255,255,0.08) !important;
+        color: $dk-text !important;
+      }
+    }
+
+    .card:hover { box-shadow: rgba(0,0,0,0.5) 0px 5px 15px !important; }
+  }
+
+  // ── Project detail modal ───────────────────────────────────────────────
+  .modal .modal-content {
+    background-color: $dk-surface-2 !important;
+    color: $dk-text !important;
+
+    .header {
+      border-bottom-color: $dk-divider !important;
+      .date    { color: $dk-text-muted !important; }
+      .title   { color: $dk-text       !important; }
+      .summary { color: $dk-text       !important; }
+    }
+
+    .content {
+      .description { color: $dk-text !important; }
+      .sub-content .title { color: $dk-text !important; }
+    }
+  }
+
+  // ── Honors ────────────────────────────────────────────────────────────
+  #honors {
+    .bg { background-color: rgba(255,255,255,0.02) !important; }
+    p.title          { color: $dk-title      !important; }
+    ul.meta .date    { color: $dk-text-muted !important; }
+    b.award-name     { color: rgba(208,214,240,0.7) !important; }
+    em.organization  { color: $dk-link-hover !important; }
+  }
+
+  // ── Recent publications section ───────────────────────────────────────
+  #recentpubs p.title { color: $dk-title !important; }
+
+  // ── Aside / sidebar ───────────────────────────────────────────────────
+  #aside #proj-wrap {
+    .proj-hr            { border-color: $dk-divider   !important; }
+    .meta, .meta span   { color: $dk-text-muted        !important; }
+  }
+
+  // ── Footer ────────────────────────────────────────────────────────────
+  footer .footer {
+    border-top-color: $dk-divider  !important;
+    color: $dk-text-muted          !important;
+  }
+
+  // ── Social icons ──────────────────────────────────────────────────────
+  #icons i {
+    background-color: $dk-icon-bg !important;
+    color: $dk-text               !important;
+  }
+
+  // ── Photography — section titles & tag cloud ──────────────────────────
+  #photography .tag-groups .tag-group .title { color: $dk-text !important; }
+
+  // Photography — floating tag cloud
+  #photography .floating-tag-cloud::before {
+    background-color: $dk-bg !important;
+  }
+
+  // Photography lightbox
+  #photography .lightbox {
+    background-color: rgba(14,15,25,0.97) !important;
+  }
+  #photography .close-btn { color: $dk-text-muted !important; }
+
+  // ── Blog list ─────────────────────────────────────────────────────────
+  #blog #posts .post {
+    border-bottom-color: $dk-divider !important;
+
+    .text-warp {
+      .title::before   { background-color: $dk-divider   !important; }
+      .meta            { color: $dk-text-muted             !important; }
+      .tag-wrap .tag-sm {
+        background-color: rgba(255,255,255,0.07) !important;
+        color: $dk-text-muted                     !important;
+      }
+    }
+  }
+
+  #blog #posts .post:hover .text-warp {
+    .title            { color: $dk-link-hover !important; }
+    .title::before    { background-color: $dk-link-hover !important; }
+  }
+
+  // Blog pagination
+  #pagination {
+    li.btn-rounded {
+      border-color: $dk-divider  !important;
+      color: $dk-text-muted       !important;
+    }
+    li.prev, li.next {
+      background-color: rgba(255,255,255,0.06) !important;
+    }
+  }
+
+  // ── Individual blog post ───────────────────────────────────────────────
+  #post .post-header .meta { color: $dk-text-muted !important; }
+  #comments div.border     { border-top-color: $dk-divider !important; }
+
+  // ── Tags page ─────────────────────────────────────────────────────────
+  #tags .tag-group .items {
+    .item {
+      &::before     { background-color: $dk-divider   !important; }
+      .meta         { color: $dk-text-muted             !important; }
+      .title        { color: $dk-text                   !important; }
+    }
+    .post-link:hover {
+      .meta, .title { color: $dk-link-hover !important; }
+      .item::before { background-color: $dk-link-hover !important; }
+    }
+  }
+
+  // ── Inline code / highlights ──────────────────────────────────────────
+  .highlighter-rouge {
+    background-color: #1f2340 !important;
+    color: #a8c7fa             !important;
+  }
+  .highlight pre { background-color: #1a1d35 !important; }
+
+  // ── Dark-mode toggle icon state ───────────────────────────────────────
+  #dark-mode-toggle {
+    .icon-moon { display: none; }
+    .icon-sun  { display: inline-block; }
+  }
+}

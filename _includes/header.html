@@ -4,6 +4,10 @@
   <header>
     <nav>
       <ul>
+        <li id="dark-mode-toggle" onclick="toggleDarkMode()" title="Toggle dark mode">
+          <i class="fas fa-moon icon-moon"></i>
+          <i class="fas fa-sun icon-sun"></i>
+        </li>
         {% case current[0] %}
         <!-- home -->
         {% when none %}

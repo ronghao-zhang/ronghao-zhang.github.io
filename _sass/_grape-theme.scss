@@ -1,14 +1,14 @@
 //Bootstrap
 @use 'bootstrap/bootstrap-grid';
 
-// Base 
+// Base
 @use 'base/variable';
 @use 'base/global';
 @use 'base/utility';
 @use 'base/highlight';
 @use 'base/bibliography';
 
-// Layout 
+// Layout
 @use 'layouts/blog';
 @use 'layouts/post';
 @use 'layouts/tags';
@@ -17,8 +17,7 @@
 @use 'layouts/presentations';
 @use 'layouts/photography';
 
-
-// Include 
+// Include
 @use 'includes/header';
 @use 'includes/aside';
 @use 'includes/footer';
@@ -26,3 +25,6 @@
 @use 'includes/modal';
 @use 'includes/recentpubs';
 @use 'includes/honors';
+
+// Dark mode — must be last so overrides win without !important where possible
+@use 'base/dark-mode';

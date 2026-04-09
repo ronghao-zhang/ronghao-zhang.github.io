@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"class=\\\\\"bg\\\\\"\" /Users/zhangronghao/Documents/github_repo/ronghao-zhang-website/_layouts/*.html /Users/zhangronghao/Documents/github_repo/ronghao-zhang-website/_includes/*.html)"
+    ]
+  }
+}

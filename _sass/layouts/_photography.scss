@@ -17,6 +17,22 @@
   h1.title {
     color: #fff;
     margin-bottom: 30px;
+
+    .portfolio-link {
+      font-size: 0.85rem;
+      font-weight: 400;
+      opacity: 0.75;
+      margin-left: 6px;
+      a {
+        color: #fff;
+        border-bottom: 1px dashed rgba(255,255,255,0.5);
+        &:hover {
+          opacity: 1;
+          border-bottom-style: solid;
+        }
+        i { font-size: 0.7rem; }
+      }
+    }
   }
 
 .floating-tag-cloud {
